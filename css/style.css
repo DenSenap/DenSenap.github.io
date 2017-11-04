@@ -22,7 +22,7 @@ section {
 }
 
 #hem {
-  height: 103vh;
+  height: 102vh;
   background: url('https://images.unsplash.com/photo-1496208612508-eb52fba7d94e?auto=format&fit=crop&w=800&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat;
   background-size: 100% 100%;
   margin-top:-1.4rem;
@@ -32,7 +32,7 @@ section {
 
 .row-text-center {
   color: white;
-  padding-top: 10rem;
+  padding-top: 7rem;
 }
 
 section#biljetter, section#hem {
