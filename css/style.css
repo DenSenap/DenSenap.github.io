@@ -4,30 +4,24 @@
 }
 
 body {
-  padding: 50px;
-  background-color: black;
+  padding: 0px 50px 0px 50px ;
+  background-color: #000;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: white;
+  color: #000;
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
 
-.jumbotron {
-  display: inline;
-  align-items: center;
-  background-image: url('https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/16649406_1205957636139504_6347675556242943173_n.jpg?oh=1afed9adcd0c36c79dc029c7050192d9&oe=5AA2F155');
-  background-size: cover;
-  color: black;
-  height: 100%;
-}
-
 section {
   height: 100vh;
+  background-color: white;
+  margin-top:-1.4rem;
+
 }
-section#about {
+section#biljetter, section#hem {
   text-align: center;
 }
 section h1 {
@@ -100,7 +94,7 @@ section h1 {
 
 a {
   text-decoration: none;
-  color: rgba(60, 60, 60, 0.8);
+  color: rgba(34, 34, 34, 0.8);
 }
 a:hover, a :focus {
   color: black;
@@ -278,7 +272,7 @@ ul.menu-left.collapse {
   position: fixed;
   font-weight: 100;
   bottom: 10px;
-  color: white;
+  color: #000;
   left: 0;
   letter-spacing: 4px;
   font-size: 10px;
@@ -287,3 +281,4 @@ ul.menu-left.collapse {
   text-transform: uppercase;
   text-decoration: none;
 }
+

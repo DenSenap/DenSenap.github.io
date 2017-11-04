@@ -7,6 +7,14 @@ $('.logo').on('click', function(e) {
     scrollTop: 0
   }, 750, 'easeInOutQuad')
 });
+$('.hem').on('click', function(e) {
+  e.preventDefault();
+  $('.nav-toggle').removeClass('open');
+  $('.menu-left').removeClass('collapse');
+  $('html, body').animate({
+    scrollTop: 0
+  }, 750, 'easeInOutQuad')
+});
 // LINKS TO ANCHORS
 $('a[href^="#"]').on('click', function(event) {
 

@@ -20,7 +20,7 @@ body {
 
 section {
   height: 100vh;
-  &#about {
+  &#biljetter {
     text-align: center;
   }
   h1 {
@@ -110,7 +110,7 @@ header {
   left: 0;
   width: 100%;
   padding: .5rem 0;
-  background: rgba(255, 255, 255, .92);
+  background: black;
   z-index: 3;
   will-change: transform;
   transition: background .3s,
@@ -129,7 +129,7 @@ header {
       font-size: 1.25rem;
       line-height: inherit;
       font-weight: 500;
-      color: black;
+      color: white;
       &:after {
         content: '';
         display: table;
