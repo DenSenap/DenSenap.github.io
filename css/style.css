@@ -15,12 +15,24 @@ body {
 }
 
 section {
-  height: 100vh;
-  width: 100%;
-  background-color: white;
+  height: 105vh;
   margin-top:-1.4rem;
 
 }
+
+#hem {
+  height: 105vh;
+  background: url('https://images.unsplash.com/photo-1496208612508-eb52fba7d94e?auto=format&fit=crop&w=800&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat;
+  background-size: 100%;
+  margin-top:-1.4rem;
+
+}
+
+.row-text-center {
+  color: white;
+  padding-top: 10rem;
+}
+
 section#biljetter, section#hem {
   text-align: center;
 }
