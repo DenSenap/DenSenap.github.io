@@ -83,13 +83,25 @@ function hasScrolled() {
 }
 
 $(document).ready(function(){
-  $('.click-popup-call').on('click', function(){
-    $('.popup-call').toggleClass('popup-call-show');
+  $('.click-popup-call-contact').on('click', function(){
+    $('.popup-call-contact').toggleClass('popup-call-contact-show');
   });
 });
 
 $(document).ready(function(){
-  $('.close').on('click', function(){
-    $('.popup-call').toggleClass('popup-call-show');
+  $('.close-contact').on('click', function(){
+    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+  });
+});
+
+$(document).ready(function(){
+  $('.click-popup-call-skills').on('click', function(){
+    $('.popup-call-skills').toggleClass('popup-call-skills-show');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-skills').on('click', function(){
+    $('.popup-call-skills').toggleClass('popup-call-skills-show');
   });
 });
