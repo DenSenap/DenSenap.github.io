@@ -397,6 +397,9 @@ h3{
   right: 0.2em;
   cursor: pointer;
 }
+footer {
+
+}
 
 @media only screen and (max-width: 600px) {
  body h3 {
@@ -450,6 +453,9 @@ h3{
   display: fixed;
   text-shadow: none;
  }
+   footer {
+    background-color: #bfbfbf !important;
+  }
 
 
 
