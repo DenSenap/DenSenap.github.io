@@ -60,33 +60,25 @@
 
 
 <section id="contact">
-  <div class="container">
+  <div class="container" style="text-align: center">
   <h1><br>Kontakta oss</h1>
   <h3 style="text-align: center">Har du någon fråga eller vill du vara med och sponsra vår nästa fest? Skicka gärna ett meddelande här!</h3><br>
-  <div id="form-main">
-  <div id="form-div">
-    <form class="form" id="form1">
-      
-      <p class="name">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Namn" id="name" />
-      </p>
-      
-      <p class="email">
-        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="E-post" />
-      </p>
-      
-      <p class="text">
-        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Meddelande"></textarea>
-      </p>
-      
-      
-      <div class="submit">
-        <input type="submit" value="Skicka!" id="button-blue"/>
-        <div class="ease"></div>
-      </div>
-    </form>
+ <button class="click-popup-call" >Kontakta oss</button>
+<div class="popup-all">
+  <div class="popup-call">
+  <form class="form" action="https://formspree.io/jonatan.ullholm@gmail.com" method="POST">
+    <input type="text" placeholder="Namn" />
+    <input type="email" placeholder="E-post" />
+    <textarea name="" id="" placeholder="Meddelande"></textarea>
+    <input type="submit" value="Skicka!" />
+  </form>
+  <div class="popup-text">
+    <h3>Kontakta oss</h3>
+    <p>Har du någon fundering, eller vill ni kanske vara med och sponsra årets fest? Skicka gärna ett meddelande här!</p>
+    <span class="close"></span>
   </div>
-
+</div>
+</div>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
@@ -98,7 +90,6 @@
 
  
 
-    </div>
 </section>
 
 <section id="skills" class="map-responsive">

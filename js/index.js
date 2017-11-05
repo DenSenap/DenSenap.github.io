@@ -82,3 +82,14 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
+$(document).ready(function(){
+  $('.click-popup-call').on('click', function(){
+    $('.popup-call').toggleClass('popup-call-show');
+  });
+});
+
+$(document).ready(function(){
+  $('.close').on('click', function(){
+    $('.popup-call').toggleClass('popup-call-show');
+  });
+});
