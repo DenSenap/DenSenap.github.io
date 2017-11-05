@@ -22,7 +22,7 @@ section {
 }
 
 #hem {
-  background: url('https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/11073980_779103972158208_5984691406885250242_n.jpg?oh=836ec5b62445a1cdaf87af1fa1c07150&oe=5AA99DAC') no-repeat;
+  background: url('https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat;
   background-size:100% auto;
   display: fixed;
 }
@@ -433,8 +433,11 @@ h3{
  }
  .row-text-center {
   color: black;
-  padding-top: 5rem;
+  padding-top: 2rem;
   font-size: 1.5em;
+ }
+ .row-text-center h2 {
+  font-size: 0.7em;
  }
  #hem {
   background: url('https://images.unsplash.com/photo-1501694159270-7b55f5eb85fc?auto=format&fit=crop&w=634&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat;
