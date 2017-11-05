@@ -43,6 +43,7 @@
   </div>
   <p class="signature"><a href="#" class="hem">Tillbaka till toppen</a></p>
   </div>
+      
 </section>
 
 <section id="biljetter">
@@ -90,7 +91,9 @@
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
 
-
+<script> $(window).scroll(function(){
+    $("#hem").css("opacity", 1 - $(window).scrollTop() / 1500);
+  }); </script>
  
 
 </section>
@@ -115,7 +118,7 @@
 
 
 
-<footer style="height: 46vh; background-color: #bfbfbf">
+<footer style="height: 46vh; background-color: #ffc266">
 </footer>
 
 </body>
