@@ -22,14 +22,15 @@ section {
 }
 
 #hem {
-  background: url('https://images.unsplash.com/photo-1496208612508-eb52fba7d94e?auto=format&fit=crop&w=800&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat;
+  background: url('https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/11073980_779103972158208_5984691406885250242_n.jpg?oh=836ec5b62445a1cdaf87af1fa1c07150&oe=5AA99DAC') no-repeat;
   background-size:100% auto;
-
+  display: fixed;
 }
 
 .row-text-center {
   color: white;
   padding-top: 7rem;
+  font-size: 3em;
 }
 
 section#biljetter, section#hem {
