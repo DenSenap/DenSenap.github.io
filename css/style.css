@@ -505,6 +505,9 @@ footer .row2 {
   height: 4.5em;
   margin-bottom:5px;
  }
+ footer {
+  height: 46vh;
+ }
 
 }
 
