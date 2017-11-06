@@ -537,6 +537,7 @@ footer {
 .fa-envelope {
     background: brown;
     color: white;
+    cursor: pointer;
 }
 
 .yeesh {
