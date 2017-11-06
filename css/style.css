@@ -398,11 +398,7 @@ h3{
   cursor: pointer;
 }
 footer {
- height: 36vh; 
- background-color: #ffc266; 
- text-align: center; 
- color: black; 
- font-size: 1.5em;
+ 
 }
 
 /* Style all font awesome icons */
