@@ -453,7 +453,15 @@ footer .row2 {
   
 }
 
-.kop {
+.kop-top {
+  font-size: 0.9em;
+  margin-top: 1.5em;
+  background-color:#f02828;
+  color: white!important;
+
+}
+
+.kop-bottom {
   font-size: 0.8em;
   margin-top: 1.5em;
   background-color:#f02828;
@@ -461,7 +469,7 @@ footer .row2 {
 
 }
 
-.kop:hover {
+.kop-top:hover, .kop-bottom {
   color: white!important;
   opacity: 0.9;
 }
@@ -519,6 +527,12 @@ footer .row2 {
      padding:0;
      overflow-x: scroll;
   }
+  .kop-bottom {
+  font-size: 0.6em;
+  margin-top: 1.7em;
+  background-color:#f02828;
+  color: white!important;
+}
 
  .popup-text{
   order: 1;
