@@ -469,7 +469,7 @@ footer .row2 {
 
 }
 
-.kop-top:hover, .kop-bottom {
+.kop-top:hover, .kop-bottom:hover {
   color: white!important;
   opacity: 0.9;
 }
