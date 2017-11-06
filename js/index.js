@@ -105,3 +105,9 @@ $(document).ready(function(){
     $('.popup-call-skills').toggleClass('popup-call-skills-show');
   });
 });
+
+$(document).ready(function(){
+  $('.meddelande').on('click', function(){
+    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+  });
+});
