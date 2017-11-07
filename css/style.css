@@ -512,14 +512,7 @@ footer .row2 {
   .remove {
     display: none;
   }
-  .kalkon img {
-    width: 70%;
-    height: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-
-  }
+  
   .kalkon h3 {
     margin-left: auto;
     margin-right: auto;
@@ -621,10 +614,7 @@ footer .row2 {
   margin-top: 1rem;
   font-size: 0.5em;
   }
-  .kalkon img {
-    width: 50%;
-    height: 50%;
-  }
+  
 
 
 
