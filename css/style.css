@@ -614,6 +614,15 @@ footer .row2 {
   margin-top: 1rem;
   font-size: 0.5em;
   }
+  .remove {
+    display: none;
+  }
+  
+  .kalkon h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
   
 
 
