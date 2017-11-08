@@ -112,3 +112,14 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $('.click-popup-call-read').on('click', function(){
+    $('.popup-call-read').toggleClass('popup-call-read-show');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-read').on('click', function(){
+    $('.popup-call-read').toggleClass('popup-call-read-show');
+  });
+});
