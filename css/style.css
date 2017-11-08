@@ -416,39 +416,42 @@ footer {
 
 /* Style all font awesome icons */
 .top-social .fa {
-    padding: 15px;
-    font-size: 1.4em;
-    width: 2.2em;
+    padding: 10px;
+    font-size: 2.4em;
+    width: 1.55em;
     margin-left: 0.3em;
     text-align: center;
     text-decoration: none;
     margin-top: 0.5em;
     text-align: center;
+    border-radius: 4px;
 
     
 }
 
 footer .fa {
-    padding: 20px;
-    font-size: 1em;
-    width: 2.7em;
+    padding: 10px;
+    font-size: 1.6em;
+    width: 1.5em;
     margin-left: 0.3em;
     text-align: center;
     text-decoration: none;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
     text-align: center;
+    border-radius: 4px;
 
     
 }
 .popup-call-read .fa {
-    padding: 20px;
-    font-size: 1em;
-    width: 2.7em;
+    padding: 10px;
+    font-size: 2em;
+    width: 0.5em;
     margin-left: 0.3em;
     text-align: center;
     text-decoration: none;
     margin-top: 0.5em;
     text-align: center;
+    border-radius: 4px;
 
     
 }
