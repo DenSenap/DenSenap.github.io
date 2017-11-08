@@ -357,7 +357,15 @@ h3{
   transition: 0.5s ease all;
 }
 
-.click-popup-call-contact, .click-popup-call-skills  {
+.click-popup-call-contact  {
+  background:brown;
+  border:0;
+  border-radius:5px;
+  color:#fff;
+  font-size:16px;
+  padding:10px;
+}
+.click-popup-call-skills  {
   background:#083a51;
   border:0;
   border-radius:5px;
