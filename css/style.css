@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f5f5f0;
+  background-color: #a9b6cc;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -582,6 +582,10 @@ footer .row2 {
 
 #contact {
   background-color: #a9b6cc;
+}
+
+#skills,#exp {
+  background-color: #f5f5f0;
 }
 
 #biljetter {
