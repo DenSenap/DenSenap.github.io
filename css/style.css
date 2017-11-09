@@ -579,6 +579,16 @@ footer .row2 {
   margin-left: auto; 
   margin-right: auto
 }
+
+#contact {
+  background-color: #a9b6cc;
+}
+
+#biljetter {
+  background-color:#a9b6cc;
+}
+
+
 @media only screen and (max-width: 1300px) {
  body h3 {
   font-size: 1.4em;
