@@ -591,6 +591,24 @@ footer .row2 {
 #biljetter {
   background-color:#a9b6cc;
 }
+.skillstext {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 1.5em; "
+}
+
+.skillsbutton {
+  margin-top: 2em; 
+  text-align: left
+}
+.skillstitle {
+  margin-bottom: 2em
+}
+.skillstunnelbana {
+  margin-top: 2em;
+  font-size: 1.2em
+}
 
 
 @media only screen and (max-width: 1300px) {
@@ -605,6 +623,25 @@ footer .row2 {
      padding:0;
      overflow-y: scroll;
   }
+  .skillstext {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 1em; "
+}
+.skillstitle {
+  margin-bottom: 0.5em;
+}
+.skillstunnelbana {
+  margin-top: 0.5em;
+  font-size: 1em
+}
+.skillsbutton {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+}
   .popup-call-read h3, .popup-call-read p{
     margin-left: 1em;
     margin-right: 1em;
