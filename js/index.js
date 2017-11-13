@@ -9,10 +9,7 @@ $('.menu-left').removeClass('collapse');
 });
 
 
-   
-}
-window.addEventListener("orientationchange", function() {
-   $('section').css('height','200vh');
+
 // NAVIGATION LOGO SCROLL TOP
 $('.logo').on('click', function(e) {
   e.preventDefault();
