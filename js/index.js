@@ -1,3 +1,11 @@
+$(window).scroll(function () {
+if ($(window).scrollTop() >= 50) {
+$('header').css('background', 'rgba(256,256,256, 0.9)');
+} else {
+$('header').css('background', 'transparent');
+}
+});
+
 // NAVIGATION LOGO SCROLL TOP
 $('.logo').on('click', function(e) {
   e.preventDefault();
@@ -32,6 +40,7 @@ $('a[href^="#"]').on('click', function(event) {
 $('.nav-toggle').on('click', function() {
   $(this).toggleClass('open');
   $('.menu-left').toggleClass('collapse');
+  $('header').css('background', 'rgba(256,256,256, 0.9)');
 });
 // REMOVE X & COLLAPSE NAV ON ON CLICK
 $('.menu-left a').on('click', function() {
