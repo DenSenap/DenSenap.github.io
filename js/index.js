@@ -1,5 +1,5 @@
 $(window).scroll(function () {
-if ($(window).scrollTop() >= 50) {
+if ($(window).scrollTop() >= 10) {
 $('header').css('background', 'rgba(256,256,256, 0.9)');
 } else {
 $('header').css('background', 'transparent');

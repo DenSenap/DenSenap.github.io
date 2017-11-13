@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #e6f0ff;
+  background-color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -705,7 +705,7 @@ footer .row2 {
   height: 46vh;
  }
  section {
-  height: 125vh;
+  height: 110vh;
 
 }
 
@@ -770,7 +770,7 @@ footer .row2 {
 
  }
  section {
-  height: 130vh;
+  height: 110vh;
 
 }
  .form textarea{
