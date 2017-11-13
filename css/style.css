@@ -25,7 +25,7 @@ section {
   background: url('https://i.imgur.com/p4Z54e1.png') no-repeat;
   background-size:100% auto;
   display: fixed;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
   
 }
 
@@ -838,3 +838,18 @@ footer .row2 {
 
 
 }
+
+@media screen and (min-width: 400px) and (max-height: 414px) {
+  footer {
+    height: 100vh !important;
+
+  }
+  #contact, #skills, #exp, #biljetter {
+    height: 200vh ;
+  }
+}
+@media screen and (min-width: 400px) and (max-height: 300px) {
+  .removeremove {
+    display: none;
+  }
+  }
