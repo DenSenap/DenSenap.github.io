@@ -616,7 +616,7 @@ footer .row2 {
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) , screen and (max-height: 700px) {
  body h3 {
   font-size: 1.4em;
  }
@@ -711,9 +711,12 @@ footer .row2 {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) , screen and (max-height: 500px) {
  body h3 {
   font-size: 1.2em;
+ }
+ footer {
+  height: 60vh;
  }
  .questions-anchor {
   text-align: left;
