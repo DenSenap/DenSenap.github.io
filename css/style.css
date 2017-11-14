@@ -230,6 +230,7 @@ header nav ul li a {
 
 ul.menu-left {
   display: block;
+  font-weight: 500;
   max-height: 0;
   overflow: hidden;
   text-align: center;
@@ -244,6 +245,7 @@ ul.menu-left {
   ul.menu-left {
     display: block !important;
     float: right;
+
     max-height: none;
   }
 }
@@ -723,6 +725,10 @@ footer .row2 {
 @media screen and (max-width: 768px) , screen and (max-height: 500px) {
  body h3 {
   font-size: 1.2em;
+ }
+ ul.menu-left {
+  
+  font-weight: 700;
  }
  .sponsor {
   display: none;
