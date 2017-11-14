@@ -727,8 +727,7 @@ footer .row2 {
   font-size: 1.2em;
  }
  ul.menu-left {
-  
-  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
  }
  .sponsor {
   display: none;
@@ -762,6 +761,9 @@ footer .row2 {
   }
   #biljetter-title {
     text-align: left;
+  }
+  #biljetter {
+    margin-top: 0em;
   }
 
   .bild-och-text img {
