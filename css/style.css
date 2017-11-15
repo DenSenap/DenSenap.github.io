@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:#8b64ff;
+  background-color:black;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -745,6 +745,9 @@ footer .row2 {
  }
  ul.menu-left {
   font-family: 'Ubuntu', sans-serif;
+ }
+ #biljetter {
+  margin-top: -2em;
  }
  .sponsor {
   display: none;
