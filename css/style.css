@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color:#8b64ff;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -20,6 +20,11 @@ section {
   height: 110vh;
 
 }
+//*#skills,#exp,#contact {
+  margin: 2em 0 0 0;
+}
+*/
+
 .row-text-center h1 {
   font-family: 'Russo One';
 }
@@ -594,14 +599,26 @@ footer .row2 {
 
 #contact {
   background-color: #ffffff;
+  border-radius: 10px;
 }
 
 #skills,#exp {
   background-color:#ffffff ;
+
+}
+#skills {
+  border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+#exp {
+  border-radius: 10px;
 }
 
 #biljetter {
   background-color:#ffffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .skillstext {
   text-align: left;
