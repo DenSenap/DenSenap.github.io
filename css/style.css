@@ -599,7 +599,7 @@ footer .row2 {
 
 #contact {
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 #skills,#exp {
@@ -607,18 +607,18 @@ footer .row2 {
 
 }
 #skills {
-  border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+  border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
 }
 
 #exp {
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 #biljetter {
   background-color:#ffffff;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 .skillstext {
   text-align: left;
@@ -746,6 +746,29 @@ footer .row2 {
  ul.menu-left {
   font-family: 'Ubuntu', sans-serif;
  }
+ #contact {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#skills,#exp {
+  background-color:#ffffff ;
+
+}
+#skills {
+  border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+#exp {
+  border-radius: 10px;
+}
+
+#biljetter {
+  background-color:#ffffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
  #biljetter {
   margin-top: -2em;
  }
