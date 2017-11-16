@@ -8,17 +8,6 @@ $('.menu-left').removeClass('collapse');
 }
 });
 
-$(document).ready(function(){ 
-
-    $('.read_more').on('click', function(){ 
-
-        event.preventDefault(); 
-        $(this).parents('.kyckling').toggleClass('.more_text'); 
-        $('.more_text').toggleClass('more_text_show');
-
-    });
-
-});
 
 
 
@@ -149,3 +138,9 @@ $(document).ready(function(){
   });
 });
 
+$('.wrapper').find('a[href="#"]').on('click', function (e) {
+    e.preventDefault();
+    this.expand = !this.expand;
+    $(this).text(this.expand?"Click to collapse":"Click to read more");
+    $(this).closest('.wrapper').find('.small, .big').toggleClass('small big');
+});

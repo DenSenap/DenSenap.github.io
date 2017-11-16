@@ -24,7 +24,7 @@ body {
 
 }
 .mobile {
-  display: none;
+  visibility: hidden;
 }
 #skills {
   
@@ -262,6 +262,19 @@ header nav ul li a {
   -webkit-transform: translateY(-120%) !important;
 }
 
+.slidingDiv {
+height:auto;
+background-color: #fff;
+padding-left: 20px;
+margin-top:10px;
+border-bottom:5px solid #3399FF;
+margin-bottom: 1em;
+}
+
+.show_hide {
+display:none;
+}
+
 ul.menu-left {
   display: block;
   font-weight: 500;
@@ -483,6 +496,12 @@ footer {
     
 }
 
+.top-social {
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+}
+
 footer .fa {
     padding: 10px;
     font-size: 1.6em;
@@ -678,7 +697,12 @@ footer .row2 {
   font-size: 1.4em;
  }
  .mobile {
-  display: inline;
+  visibility: visible;
+}
+.top-social {
+  margin-left: none;
+  margin-right: none; 
+  text-align: left;
 }
  .popup-call-contact, .popup-call-skills, .popup-call-read{
      width:100%;

@@ -13,6 +13,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+
       
   
 </head>
@@ -59,25 +61,30 @@
     </div>
     <div class="col-lg-6 col-md-12 kyckling" style=" text-align: left">
       <p style="font-size: 1.1em; text-align: left">RYKTET är en av Stockholms bästa mötesplatser för ungdomar mellan 14-18 år som vill festa och träffa nya vänner. Allt är självklart helt alkohol- och drogfritt!</p>
-      <a href="#" class="read_more mobile">Läs mer</a><br/>
-       <span class="more_text remove">
-        <p>Idén med RYKTET är att krossa normerna som säger att man måste dricka alkohol eller ta droger för att ha roligt. Det finns få tillfällen då ungdomar får möjlighet att ses och göra något roligt som är bara för dom. Vi är för unga för krogen men är samtidigt för gamla för mycket annat. Varför ska inte ungdomar få ha en fest som är bara för dom?<br><br>
-Detta projekt kör vi minst en gång varje år och vi hoppas är något som många kan se fram emot. Detta ska vara en miljö där vi kan känna oss avslappnade och trygga samtidigt som det ger alla ett minne för livet. Vi bjuder in hela Stockholms ungdomar och på så sätt blir även eventet en naturlig knutpunkt för integration.</p>
-    </span>
+      <a href="#" class="show_hide mobile" onclick="event.preventDefault();">Läs mer</a>
+<div class="slidingDiv">
+<p>Idén med RYKTET är att krossa normerna som säger att man måste dricka alkohol eller ta droger för att ha roligt. Det finns få tillfällen då ungdomar får möjlighet att ses och göra något roligt som är bara för dom. Vi är för unga för krogen men är samtidigt för gamla för mycket annat. Varför ska inte ungdomar få ha en fest som är bara för dom?<br><br>
+Detta projekt kör vi minst en gång varje år och vi hoppas är något som många kan se fram emot. Detta ska vara en miljö där vi kan känna oss avslappnade och trygga samtidigt som det ger alla ett minne för livet. Vi bjuder in hela Stockholms ungdomar och på så sätt blir även eventet en naturlig knutpunkt för integration.</p> <div style="text-align: right"> <a href="#" onclick="event.preventDefault();" class="show_hide" >Tillbaka</a></div></div>
+
+<div class="remove">
+  <p>Idén med RYKTET är att krossa normerna som säger att man måste dricka alkohol eller ta droger för att ha roligt. Det finns få tillfällen då ungdomar får möjlighet att ses och göra något roligt som är bara för dom. Vi är för unga för krogen men är samtidigt för gamla för mycket annat. Varför ska inte ungdomar få ha en fest som är bara för dom?<br><br>
+Detta projekt kör vi minst en gång varje år och vi hoppas är något som många kan se fram emot. Detta ska vara en miljö där vi kan känna oss avslappnade och trygga samtidigt som det ger alla ett minne för livet. Vi bjuder in hela Stockholms ungdomar och på så sätt blir även eventet en naturlig knutpunkt för integration.</p> </div>
+    
+        
+ 
 
 
-<div class="remove" style="text-align: left">
-</div>
+
 <div  style="margin-left: auto;margin-right: auto">
 
-<p style="text-align: left"><i>Bakom projektet står Stiftelsen Birkagården, Norrmalms Ungdomsråd och 
+<p style="text-align: left"><i><br>Bakom projektet står Stiftelsen Birkagården, Norrmalms Ungdomsråd och 
 Bra Vibb - Produktion & Bokning.</i></p>
  
        
 
 </div>
 </div>
-<div style="margin-left: auto;margin-right: auto; text-align:center;" class="col-sm-12  top-social">
+<div  class="col-sm-12  top-social">
 <h3 ><br><br>Följ oss på våra sociala medier!</h3>
     <div class="row2">
         
@@ -90,6 +97,20 @@ Bra Vibb - Produktion & Bokning.</i></p>
     <p class="signature"><a href="#" class="hem">Tillbaka till toppen</a></p>
 </div>
 <div id="border"></div>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$(".slidingDiv").hide();
+$(".show_hide").show();
+
+$('.show_hide').click(function(){
+$(".slidingDiv").slideToggle();
+});
+
+});
+
+</script>
 </section>
 
 
