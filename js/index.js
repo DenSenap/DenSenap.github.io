@@ -8,6 +8,18 @@ $('.menu-left').removeClass('collapse');
 }
 });
 
+$(document).ready(function(){ 
+
+    $('.read_more').on('click', function(){ 
+
+        event.preventDefault(); 
+        $(this).parents('.kyckling').toggleClass('.more_text'); 
+        $('.more_text').toggleClass('more_text_show');
+
+    });
+
+});
+
 
 
 // NAVIGATION LOGO SCROLL TOP
