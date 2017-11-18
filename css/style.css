@@ -416,12 +416,17 @@ h3{
 }
 
 .click-popup-call-contact  {
-  background:brown;
+  background:#ce2a2a;
   border:0;
   border-radius:5px;
   color:#fff;
   font-size:16px;
   padding:10px;
+  
+}
+.click-popup-call-contact:hover  {
+  background:#ce2a2a;
+  opacity: 0.9;
   
 }
 .click-popup-call-skills  {
@@ -431,6 +436,10 @@ h3{
   color:#fff;
   font-size:16px;
   padding:10px;
+}
+.click-popup-call-skills:hover  {
+  background:#083a51;
+  opacity: 0.9;
 }
 
 .click-popup-call-read {
@@ -455,12 +464,21 @@ h3{
 
 
 .form input[type="submit"]{
-  background:#B11623;
+  background:#ce2a2a;
   border:0;
   border-radius:5px;
   color:#fff;
   font-size:16px;
   padding:10px;
+}
+.form input[type="submit"]:hover {
+  background:#ce2a2a;
+  border:0;
+  border-radius:5px;
+  color:#fff;
+  font-size:16px;
+  padding:10px;
+  opacity: 0.9;
 }
 
 .popup-all {
@@ -549,7 +567,7 @@ footer .fa {
 }
 
 .fa-envelope {
-    background: brown;
+    background: #ce2a2a;
     color: white;
     cursor: pointer;
 }
