@@ -19,7 +19,7 @@
   
 </head>
 
-<body>
+<body class="no-touch">
   <header>
         <div class="container">
           <nav id="navigation">
@@ -110,7 +110,12 @@ $(".slidingDiv").slideToggle();
 
 });
 
+
 </script>
+<script>if ('ontouchstart' in document) {
+    Y.one('body').removeClass('no-touch');
+}</script>
+
 </section>
 
 

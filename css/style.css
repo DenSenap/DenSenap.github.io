@@ -3,6 +3,9 @@
 * {
   box-sizing: border-box;
 }
+.no-touch my:hover {
+   color: red;
+}
 
 body {
   background-color:#b399ff;
@@ -261,6 +264,7 @@ header nav ul li a {
   transform: translateY(-120% !important);
   -webkit-transform: translateY(-120%) !important;
 }
+
 
 .slidingDiv {
 height:auto;
