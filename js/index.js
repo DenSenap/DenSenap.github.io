@@ -10,7 +10,6 @@ $('.menu-left').removeClass('collapse');
 
 
 
-
 // NAVIGATION LOGO SCROLL TOP
 $('.logo').on('click', function(e) {
   e.preventDefault();
