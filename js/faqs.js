@@ -40,60 +40,7 @@ $('a[href^="#"]').on('click', function(event) {
   }
 });
 
-// TOGGLE HAMBURGER & COLLAPSE NAV
-$('.nav-toggle').on('click', function() {
-  $(this).toggleClass('open');
-  $('.menu-left').toggleClass('collapse');
-  $('header').css('background', 'rgba(256,256,256, 0.9)');
-});
-// REMOVE X & COLLAPSE NAV ON ON CLICK
-$('.menu-left a').on('click', function() {
-  $('.nav-toggle').removeClass('open');
-  $('.menu-left').removeClass('collapse');
-});
 
-// SHOW/HIDE NAV
-
-// Hide Header on on scroll down
-//var didScroll;
-//var lastScrollTop = 0;
-//var delta = 5;
-//var navbarHeight = $('header').outerHeight();
-
-$(window).scroll(function(event){
-    didScroll = true;
-});
-
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('header').removeClass('show-nav').addClass('hide-nav');
-        $('.nav-toggle').removeClass('open');
-        $('.menu-left').removeClass('collapse');
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('hide-nav').addClass('show-nav');
-        }
-    }
-
-    lastScrollTop = st;
-}
 
 $(document).ready(function(){
   $('.click-popup-call-contact').on('click', function(){
@@ -107,17 +54,7 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  $('.click-popup-call-skills').on('click', function(){
-    $('.popup-call-skills').toggleClass('popup-call-skills-show');
-  });
-});
 
-$(document).ready(function(){
-  $('.close-skills').on('click', function(){
-    $('.popup-call-skills').toggleClass('popup-call-skills-show');
-  });
-});
 
 $(document).ready(function(){
   $('.meddelande').on('click', function(){
@@ -137,7 +74,12 @@ $(document).ready(function(){
   });
 });
 
-
+$('.wrapper').find('button[href="#"]').on('click', function (e) {
+    e.preventDefault();
+    this.expand = !this.expand;
+    $(this).text(this.expand?"Click to collapse":"Click to read more");
+    $(this).closest('.wrapper').find('.small, .big').toggleClass('small big');
+});
 
 function watchForHover() {
     var hasHoverClass = false;
