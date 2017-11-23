@@ -750,7 +750,17 @@ footer .row2 {
  body h3 {
   font-size: 1.4em;
  }
- 
+ .show_hide1 {
+
+margin-top:2em;
+
+}
+.show_hide1, .show_hide2, .show_hide3 {
+  padding: 1.5em;
+  font-size: 1.5em;
+
+
+}
 .top-social {
   margin-left: none;
   margin-right: none; 
