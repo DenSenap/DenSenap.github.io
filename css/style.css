@@ -44,7 +44,7 @@ body {
 
 #biljetter, #exp, #contact, #skills {
   height: auto !important;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   position: relative;
   
 
@@ -54,9 +54,16 @@ body {
 }
 #skills {
   
-  padding-bottom: 4em;
+  padding-bottom: 15vh;
+  margin-bottom: 7vh;
+  border-bottom: 2px solid #d5d5c3;
   
   }
+  #biljetter {
+  margin-top: 7vh;
+  border-top: 2px solid #d5d5c3;
+  
+}
 #biljetter:before, #exp:before, #contact:before {
   display: show;
   content : "";
@@ -698,6 +705,7 @@ footer .row2 {
 
 #skills,#exp {
   background-color:#ffffff ;
+  
 
 }
 #skills {
@@ -713,6 +721,7 @@ footer .row2 {
   background-color:#ffffff;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+
 }
 .skillstext {
   text-align: left;
@@ -931,19 +940,21 @@ footer .row2 {
 
  .popup-text{
   order: 1;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 6vh;
+  padding-right: 6vh;
   width:100%;
   float: none;
   margin-left:auto;
   margin-right: auto; 
   margin-bottom: 1em;
+
 }
  .form {
   order: 2;
   width: 100%;
   float: none;
-  padding:0;
+  padding-left: 6vh;
+  padding-right: 6vh;
   margin-left:auto;
   margin-right: auto;
 
@@ -953,6 +964,7 @@ footer .row2 {
   
   height: 4.5em;
   margin-bottom:5px;
+
  }
  .row-text-center {
   
@@ -1027,3 +1039,21 @@ footer .row2 {
   }
 
   }
+  @media (min-width: 1300px) {
+  #biljetter, #exp, #contact, #skills { 
+    width: 80% ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-left:2px solid #d5d5c3;
+    border-right:2px solid #d5d5c3;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  body {
+    background-color: white;
+  }
+}
