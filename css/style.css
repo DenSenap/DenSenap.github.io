@@ -330,6 +330,7 @@ header nav .logo {
   padding-bottom: .25rem;
   margin-right: 1rem;
   font-size: 2rem;
+  visibility: hidden;
   line-height: inherit;
   font-weight: 500;
   font-family: 'Russo One', sans-serif;

@@ -56,6 +56,7 @@ $('a[href^="#"]').on('click', function(event) {
 $('.nav-toggle').on('click', function() {
   $(this).toggleClass('open');
   $('.menu-left').toggleClass('collapse');
+  $('.logo').css('visibility', 'visible');
   $('header').css('background', 'rgba(256,256,256, 0.9)');
 });
 // REMOVE X & COLLAPSE NAV ON ON CLICK
