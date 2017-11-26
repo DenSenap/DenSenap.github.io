@@ -28,17 +28,6 @@ $('.hem').on('click', function(e) {
   }, 750, 'easeInOutQuad')
 });
 // LINKS TO ANCHORS
-$('a[href^="#"]').on('click', function(event) {
-
-  var $target = $(this.getAttribute('href'));
-
-  if($target.length) {
-    event.preventDefault();
-    $('html, body').stop().animate({
-      scrollTop: $target.offset().top
-    }, 750, 'easeInOutQuad');
-  }
-});
 
 
 
@@ -74,12 +63,7 @@ $(document).ready(function(){
   });
 });
 
-$('.wrapper').find('button[href="#"]').on('click', function (e) {
-    e.preventDefault();
-    this.expand = !this.expand;
-    $(this).text(this.expand?"Click to collapse":"Click to read more");
-    $(this).closest('.wrapper').find('.small, .big').toggleClass('small big');
-});
+
 
 function watchForHover() {
     var hasHoverClass = false;
