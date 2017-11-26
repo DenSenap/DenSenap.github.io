@@ -33,6 +33,10 @@ body {
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
 }
+a:visited {
+  color: rgba(34, 34, 34, 0.8);
+  
+}
 
 .page-scroll .btn-circle:hover i.animated {
   -webkit-animation-name: pulse;
@@ -82,7 +86,7 @@ body {
 .btn-circle {
   width: 2.2em;
   position: absolute;
-  bottom: 25%;
+  bottom: 3em;
   left: 50%;
   transform: translate(-50%, 0);
   height: 2.2em;
@@ -265,11 +269,9 @@ section h1 {
 
 a {
   text-decoration: none !important;
-  color: rgba(34, 34, 34, 0.8) ;
+  color: rgba(34, 34, 34, 0.9) !important;
 }
-a:hover, a :focus {
-  color: black ;
-}
+
 
 .menu-left a {
   display: inline-block;
@@ -1024,6 +1026,7 @@ footer .row2 {
 }
  #biljetter {
   margin-top: -2em;
+
  }
 
  .sponsor {
