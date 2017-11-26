@@ -16,6 +16,87 @@ body {
   min-height: 100%;
 }
 
+.page-scroll .btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+
+.page-scroll .btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.btn-circle {
+  width: 2.2em;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 2.2em;
+  border-radius: 66%;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.9)!important;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+}
+
+.btn-circle:hover, .btn-circle:focus {
+  outline: 0;
+  color: #fff!important;
+  background: rgba(255, 255, 255, 0.2);
+}
+
 #faq {
   background-color: white;
   padding-bottom: 2em;
@@ -181,10 +262,10 @@ section h1 {
 
 a {
   text-decoration: none !important;
-  color: rgba(34, 34, 34, 0.8) !important;
+  color: rgba(34, 34, 34, 0.8) ;
 }
 a:hover, a :focus {
-  color: black !important;
+  color: black ;
 }
 
 .menu-left a {
@@ -379,7 +460,9 @@ ul.menu-left.collapse {
   font-weight: 100;
   bottom: 10px;
   color: #000;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  translate
   z-index: 9999;
   letter-spacing: 4px;
   font-size: 10px;
@@ -387,7 +470,13 @@ ul.menu-left.collapse {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  background-color: transparent;
+  width: auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+
 }
+
 
 
 .popup-call-skills iframe{
@@ -406,7 +495,7 @@ h3{
 .popup-call-contact, .popup-call-skills, .popup-call-read{
   position:fixed;
   text-align:left;
-  z-index:9999;
+  z-index:9900;
   margin:auto;
   clear:both;
   height:50%;
@@ -547,6 +636,11 @@ footer {
 
     
 }
+.top-social .fa-instagram {
+    background-color: #ff8533;
+
+    
+}
 
 .top-social {
   margin-left: auto;
@@ -596,7 +690,7 @@ footer .fa {
 
 /* instagram */
 .fa-instagram {
-    background: #55ACEE;
+    background-color: #ff8533;;
     color: white;
 }
 
@@ -606,10 +700,15 @@ footer .fa {
     cursor: pointer;
 }
 
+.fa-envelope:hover, .fa-instagram:hover,.fa-facebook:hover {
+  color: white;
+}
+
 .yeesh {
   margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 footer .row2 {
@@ -649,7 +748,7 @@ footer .row2 {
   opacity: 0.9;
 }
 .kop-bottom:hover {
-  color: black!important;
+  color: white!important;
   opacity: 0.9;
   background-color: transparent!important;
 }
@@ -864,6 +963,7 @@ footer .row2 {
   position: absolute;
   left    : 35.5%;
   bottom  : 0;
+  z-index: 900;
   height  : 1px;
   width   : 30%;  /* or 100px */
   border-bottom:none;
@@ -976,7 +1076,7 @@ footer .row2 {
   
  }
  #hem {
-  background: url('https://i.imgur.com/yPLArwg.png') no-repeat;
+  background: url('https://i.imgur.com/JWHfgWj.jpg') no-repeat;
   background-size:100% auto;
   display: fixed;
   height: 100vh;
