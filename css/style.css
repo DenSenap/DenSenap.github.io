@@ -1023,8 +1023,7 @@ footer .row2 {
   border-bottom-right-radius: 10px;
 }
  #biljetter {
-  position:relative;
-  top: -2em;
+  margin-top: -2em;
  }
 
  .sponsor {
