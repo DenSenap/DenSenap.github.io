@@ -8,6 +8,16 @@ $('.menu-left').removeClass('collapse');
 }
 });
 
+$(window).scroll(function () {
+if ($(window).scrollTop() >= 1) {
+$('.logo').css('visibility', 'visible');
+} else {
+$('.logo').css('visibility', 'hidden');
+$('.nav-toggle').removeClass('open');
+$('.menu-left').removeClass('collapse');
+}
+});
+
 
 
 
