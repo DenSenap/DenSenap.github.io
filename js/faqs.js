@@ -8,6 +8,17 @@ $('.menu-left').removeClass('collapse');
 }
 });
 
+$(function() {
+   $(window).unload(function() {
+      var scrollPosition = $("section").scrollTop();
+      localStorage.setItem("scrollPosition", scrollPosition);
+   });
+   if(localStorage.scrollPosition) {
+      $("section").scrollTop(localStorage.getItem("scrollPosition"));
+   }
+});
+
+
 
 
 // NAVIGATION LOGO SCROLL TOP
