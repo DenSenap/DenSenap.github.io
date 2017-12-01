@@ -139,18 +139,22 @@ body {
 
 }
 .mobile {
-  visibility: hidden;
+  display: hidden;
 }
 #skills {
   
   padding-bottom: 15vh;
   margin-bottom: 7vh;
   border-bottom: 2px solid #d5d5c3;
+  background-color: #ffb84d!important;
+  color: white;
   
   }
   #biljetter {
   margin-top: 7vh;
   border-top: 2px solid #d5d5c3;
+  background-color: black!important;
+  color:white;
   
 }
 #biljetter:before, #exp:before, #contact:before {
@@ -161,7 +165,7 @@ body {
   bottom  : 0;
   height  : 1px;
   width   : 30%;  /* or 100px */
-  border-bottom:4px dotted gray;
+  
 }
 //*#skills,#exp,#contact {
   margin: 2em 0 0 0;
@@ -390,15 +394,26 @@ header nav ul li a {
 
 .slidingDiv {
 height:auto;
-background-color: #fff;
+
 padding-left: 20px;
 margin-top:10px;
 border-bottom:5px solid #3399FF;
 margin-bottom: 1em;
+color:white;
 }
 
 .show_hide {
 display:none;
+color: white;
+opacity:0.8;
+}
+.show_hide:visited {
+  color: white;
+  opacity:0.8;
+}
+.show_hide:hover {
+  color: white;
+  opacity:1;
 }
 
 ul.menu-left {
@@ -531,6 +546,7 @@ h3{
 .form{
   width:45%;
   padding-right:5%;
+  color:black;
 }
 
 
@@ -552,7 +568,7 @@ h3{
 }
 
 .click-popup-call-contact  {
-  background:#ce2a2a;
+  
   border:0;
   border-radius:5px;
   color:#fff;
@@ -561,8 +577,8 @@ h3{
   
 }
 .click-popup-call-contact:hover  {
-  background:#ce2a2a;
-  opacity: 0.9;
+  
+  
   
 }
 .click-popup-call-skills  {
@@ -800,7 +816,7 @@ footer .row2 {
 }
 .bild-och-text p {
   width: 70%; 
-  background-color: rgb(240,240,240);
+  
   opacity: 1; 
   margin-left: auto;
   margin-right: auto;
@@ -815,22 +831,23 @@ footer .row2 {
 }
 
 #contact {
-  background-color: #ffffff;
+  background-color: #e600ac!important;
   border-radius: 0px;
+  color:white;
 }
 
-#skills,#exp {
-  background-color:#ffffff ;
-  
 
-}
 #skills {
   border-top-left-radius: 0px;
    border-top-right-radius: 0px;
+   color:white;
+  
 }
 
 #exp {
   border-radius: 0px;
+   background-color: #4da6ff!important;
+   color: white;
 }
 
 #biljetter {
@@ -881,7 +898,7 @@ footer .row2 {
   
   }
  .mobile {
-  visibility: visible;
+  display: inline;
 }
 .top-social {
   margin-left: none;
@@ -986,10 +1003,12 @@ footer .row2 {
   font-size: 1.2em;
  }
  body {
-  background-color:#b399ff;
+  
  }
- section {
-  margin-top: 1.5vh;
+ #biljetter,#exp,#contact,#skills,#hem {
+  margin-left: 1.8vh;
+  margin-right: 1.8vh;
+
  }
  #biljetter:before, #exp:before, #contact:before {
    
@@ -1007,34 +1026,31 @@ footer .row2 {
   font-family: 'Ubuntu', sans-serif;
  }
  #contact {
-  background-color: #ffffff;
-  border-radius: 10px;
+  
+  
 }
 
-#skills,#exp {
-  background-color:#ffffff ;
 
-}
 #skills {
-  border-top-left-radius: 10px;
+  
  
   
   padding-bottom: 15vh;
-  margin-bottom: 0vh;
+  margin-bottom: 8vh;
  
   
   
-   border-top-right-radius: 10px;
+   
 }
 
 #exp {
-  border-radius: 10px;
+  
+  
 }
 
 #biljetter {
   background-color:#ffffff;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  
 }
  #biljetter {
   margin-top: -2em;
@@ -1147,9 +1163,9 @@ footer .row2 {
  }
  .bild-och-text p {
   width: 100%; 
-  background-color: transparent; 
+   
   margin-left: auto;
-  opacity: 0.7;
+  
   margin-right: auto;
 
  }
