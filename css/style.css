@@ -17,7 +17,9 @@ body {
   -webkit-text-size-adjust: 100%;
   min-height: 100%;
 }
-
+a {
+  text-decoration: none!important;
+}
 
 /*Container styles*/
 @media (min-width: 0) {
@@ -440,14 +442,8 @@ section {
   display: flex;
   margin-bottom: 10em;
   width: 100%;
-
-  
-  
-
-  
-  
-  
 }
+
 /*Ryktet section*/
 #ryktet {
   margin-bottom: 25em;
@@ -509,4 +505,9 @@ ul {
   float: right!important;
   margin-right: 0.5em;
   margin-left:60%;
+}
+
+/*Hitta-hit section*/
+#hitta-hit {
+
 }
