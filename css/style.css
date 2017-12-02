@@ -18,6 +18,7 @@ body {
   min-height: 100%;
 }
 
+
 /*Container styles*/
 @media (min-width: 0) {
   .container {
@@ -394,4 +395,54 @@ ul.menu-left.collapse {
 section {
   text-align: center;
   min-height: 80vh;
+}
+.leftinfo, .rightinfo {
+  height: auto;
+  padding-bottom: 4em;
+  width: 50em;
+  background-color: #404040;
+  display: inline-block;
+  border: 2px solid black;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+.leftinfo button {
+  width:10em;
+  
+}
+.leftinfo p {
+  font-size: 2em;
+  
+}
+.rightinfo p {
+  font-size: 2em;
+  
+  
+}
+
+.rightinfo h2, .leftinfo h2 {
+  font-weight: bold;
+  border-bottom: 1px solid red;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+}
+.rightinfo button {
+  width:10em;
+  margin-left:1em;
+  
+}
+.biginfo {
+  text-align: center;
+  margin-top: 5em;
+  display: flex;
+  margin-bottom: 10em;
+  width: 100%;
+
+  
+  
+
+  
+  
+  
 }
