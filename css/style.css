@@ -448,4 +448,65 @@ section {
   
   
 }
-/*
+/*Ryktet section*/
+#ryktet {
+  margin-bottom: 25em;
+}
+#date {
+  font-size: 2em;
+  color: #F44336;
+  border-bottom: 2px solid #F44336;
+  padding: 1em 0;
+  width: 7em;
+  overflow: visible;
+  margin-left:auto;
+  margin-right:auto;
+}
+#ryktet h3 {
+  font-size: 2.3em;
+  margin-top: 2em;
+  padding: 1em 0;
+  width: 15em;
+  margin-bottom: 2em;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom:3px solid #F44336;
+}
+.description {
+  width:80%;
+  height:auto;
+  
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 2em;
+  box-sizing: border-box;
+  padding: 2em 1em;
+  margin-top: 0em;
+}
+ul {
+  list-style-type: none;
+}
+.schema {
+  width:80%;
+  height:auto;
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 2em;
+  box-sizing: border-box;
+  background-color: #404040;
+  padding: 1em 1em 2em 1em;
+  margin-top: 4.5em;
+  border:3px solid black;
+}
+.schema li {
+  padding: 1em 0.5em;
+  width:100%;
+  border-bottom: 3px solid white;
+  display: flex;
+}
+#schematext {
+  float: right!important;
+  margin-right: 0.5em;
+  margin-left:60%;
+}
