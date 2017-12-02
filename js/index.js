@@ -8,6 +8,15 @@ $('.menu-left').removeClass('collapse');
 }
 });
 
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 50) {
+    $('header').css('padding-top', '2em');
+    $('header').css('padding-bottom', '2em');
+} else {
+    $('header').css('padding-top', '5em');
+    $('header').css('padding-bottom', '5em');
+  }
+});
 
 
 
@@ -39,7 +48,7 @@ $('a[href^="#"]').on('click', function(event) {
   if($target.length) {
     event.preventDefault();
     $('html, body').stop().animate({
-      scrollTop: $target.offset().top -180
+      scrollTop: $target.offset().top -100
     }, 750, 'easeInOutQuad');
   }
 });
