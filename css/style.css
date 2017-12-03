@@ -31,7 +31,18 @@ body {
   }
 a {
   text-decoration: none!important;
+
 }
+#hitta-hit a {
+  color: #F44336;
+  opacity: 0.7;
+  
+}
+#hitta-hit a:hover {
+  opacity: 1;
+  
+}
+
 
 /*Container styles*/
 @media (min-width: 0) {
@@ -485,12 +496,21 @@ section {
   color: #F44336;
   border-bottom: 2px solid #F44336;
   padding: 1em 0;
-  width: 7em;
+  width: 2em;
   overflow: visible;
   margin-left:auto;
   margin-right:auto;
+  white-space: nowrap;
 }
-#ryktet h3 {
+#date:before {
+    content: "";
+    margin-left: -100%;
+}
+#date:after {
+    content: "";
+    margin-right: -100%;
+}
+#ryktet h3, #hitta-hit h3 {
   font-size: 2.3em;
   margin-top: 2em;
   padding: 1em 0;
@@ -544,7 +564,72 @@ ul {
 
 /*Hitta-hit section*/
 #hitta-hit {
+  margin-bottom: 650px;
 
+}
+#hitta-hit .bryggimg{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: -3vh;
+
+}
+.bryggimg img{
+  border: 3px solid black;
+  
+}
+#hitta-hit h3 {
+  font-size: 2.3em;
+  margin-top: 2em;
+  padding: 1em 0;
+  width: 15em;
+  margin-bottom: 1em;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom:3px solid #F44336;
+}
+
+#hitta-hit .map{
+  
+  width:600px;
+  height:450px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10vh;
+  margin-left:auto;
+  margin-right: auto;
+  
+
+
+}
+.innermap:hover{
+  
+  
+  border-radius: 5px;
+  
+
+
+}
+
+.innermap {
+  border:0;
+  border-radius: 5px;
+  width:100%;
+  height: 100%;
+}
+
+.lokaltext {
+  
+}
+.bryggimg img{
+  margin-left: 3vh;
+  margin-top: 12vh;
+  width: 600px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.bryggimg {
+ 
 }
 /*Sponsorer section*/
 #sponsorer h1 {
