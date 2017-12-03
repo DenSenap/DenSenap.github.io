@@ -19,7 +19,7 @@ body {
 }
 .start1 {
   
-  height: 100vh;
+  min-height: 100vh;
 
   background: url(https://images.unsplash.com/photo-1428988449731-1e5ccfb5b84f?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center center ; 
   -webkit-background-size: cover;
@@ -257,7 +257,7 @@ ul.menu-left a:hover {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   ul.menu-left {
     display: block ;
     float: right;
@@ -293,7 +293,7 @@ ul.menu-left.collapse {
 .nav-toggle.open span:last-child {
   transform: rotate(-45deg) translate(4.4px, -4.4px);
 }
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .nav-toggle {
     display: none;
   }
@@ -532,16 +532,24 @@ ul {
 
 }
 
+
+
+
+
+
+
+/*RESPONSIVE*/
+
 @media screen and (max-width: 850px) , screen and (max-height: 815px) {
   .leftinfo, .rightinfo {
-  height: auto;
-  padding-bottom: 4em;
-  width: 50em;
-  background-color: #404040;
-  display: inline-block;
-  border: 2px solid black;
-  margin: 0 auto;
-  text-align: center;
+  width: 80%;
+  
+
  
+}
+.biginfo {
+  display: block;
+  
+  
 }
   }
