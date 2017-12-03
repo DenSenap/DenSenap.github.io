@@ -102,7 +102,6 @@ a {
   position: relative;
   color:white;
   padding-bottom: 0px;
-  
   font-size: 2em;
   margin-left:1em;
   transition: color .35s ease;
@@ -148,11 +147,12 @@ a {
 header {
   position: fixed;
   top: 0;
-  
+  left:0;
+  color: white;
   width: 100%;
   background-color:transparent;
-  padding-top: 5em;
-  padding-bottom: 5em ;
+  padding-top: 5vh;
+  padding-bottom: 5vh ;
   z-index: 3;
   will-change: transform;
   transition: background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
@@ -247,6 +247,7 @@ ul.menu-left {
   transition: all 0.3s ease-out;
   z-index: 10;
   margin-right:10vh;
+  color: white;
 
   
 }
@@ -259,7 +260,7 @@ ul.menu-left a:hover {
 
 @media (min-width: 1100px) {
   ul.menu-left {
-    display: block ;
+    display: block !important;
     float: right;
 
     max-height: none;
@@ -271,7 +272,7 @@ ul.menu-left:before {
   clear: both;
 }
 ul.menu-left.collapse {
-  max-height: 15em ;
+  max-height: 30em !important;
 }
 .nav-toggle {
   display: block;
@@ -282,6 +283,7 @@ ul.menu-left.collapse {
   width: 38px;
   cursor: pointer;
   padding: 8px 8px;
+  margin-right: 6vh;
 }
 .nav-toggle.open span:first-child {
   transform: rotate(45deg) translate(4.4px, 4.4px);
@@ -304,7 +306,7 @@ ul.menu-left.collapse {
   height: 2px;
   width: 100%;
   margin-top: 4px;
-  background-color: #000;
+  background-color: #fff;
   transition: all .25s;
 }
 
@@ -541,15 +543,42 @@ ul {
 /*RESPONSIVE*/
 
 @media screen and (max-width: 850px) , screen and (max-height: 815px) {
-  .leftinfo, .rightinfo {
-  width: 80%;
-  
-
- 
-}
-.biginfo {
-  display: block;
-  
-  
-}
+  .remove {
+    display: none;
   }
+  .leftinfo, .rightinfo {
+    width: 80%;
+  }
+  .biginfo {
+    display: block;
+  
+  }
+  ul.menu-left  {
+  
+  margin-left: 0;
+  margin-right: 0;
+
+
+  }
+  ul.menu-left li {
+  
+  width: 100%;
+  margin-right: 0;
+  margin-bottom:3em;
+
+  
+  }
+  ul.menu-left li a {
+  display: block;
+  width: 100%;
+  margin-right: 0;
+
+  
+  }
+}
+@media screen and (max-width: 768px) , screen and (max-height: 400px) {
+  header nav .logo {
+    margin-left:6vh;
+
+  }
+}

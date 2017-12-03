@@ -10,11 +10,11 @@ $('.menu-left').removeClass('collapse');
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 50) {
-    $('header').css('padding-top', '2em');
-    $('header').css('padding-bottom', '2em');
+    $('header').css('padding-top', '2vh');
+    $('header').css('padding-bottom', '2vh');
 } else {
-    $('header').css('padding-top', '5em');
-    $('header').css('padding-bottom', '5em');
+    $('header').css('padding-top', '5vh');
+    $('header').css('padding-bottom', '5vh');
   }
 });
 
@@ -57,13 +57,13 @@ $('a[href^="#"]').on('click', function(event) {
 $('.nav-toggle').on('click', function() {
   $(this).toggleClass('open');
   $('.menu-left').toggleClass('collapse');
-  
-  $('header').css('background', 'rgba(256,256,256, 0.9)');
+  $('header').css('background', '#333');
 });
 // REMOVE X & COLLAPSE NAV ON ON CLICK
 $('.menu-left a').on('click', function() {
   $('.nav-toggle').removeClass('open');
   $('.menu-left').removeClass('collapse');
+  
 });
 
 // SHOW/HIDE NAV
