@@ -17,6 +17,18 @@ body {
   -webkit-text-size-adjust: 100%;
   min-height: 100%;
 }
+.start1 {
+  
+  height: 100vh;
+
+  background: url(https://images.unsplash.com/photo-1428988449731-1e5ccfb5b84f?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+  }
 a {
   text-decoration: none!important;
 }
@@ -322,14 +334,17 @@ ul.menu-left.collapse {
 /*Welcome*/
 .welcome {
   text-align: center;
-  margin-top: 25em;
+  padding-top: 25vh;
+  background-color: transparent;
+
 }
 .welcome h1 {
   font-size: 7em;
+
 }
 .welcome p {
   font-size: 1.8em;
-  margin-top:15em;
+  margin-top:15vh;
 }
 .biljetterbutton {
   outline: none;
@@ -404,9 +419,9 @@ section {
   height: auto;
   padding-bottom: 4em;
   width: 50em;
-  background-color: #404040;
+  background-color: transparent;
   display: inline-block;
-  border: 2px solid black;
+  border: none;
   margin: 0 auto;
   text-align: center;
  
@@ -443,6 +458,8 @@ section {
   margin-bottom: 10em;
   width: 100%;
 }
+
+
 
 /*Ryktet section*/
 #ryktet {
@@ -498,7 +515,7 @@ ul {
 .schema li {
   padding: 1em 0.5em;
   width:100%;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid #F44336;;
   display: flex;
 }
 #schematext {
@@ -506,8 +523,25 @@ ul {
   margin-right: 0.5em;
   margin-left:60%;
 }
+#time {
+  
+}
 
 /*Hitta-hit section*/
 #hitta-hit {
 
 }
+
+@media screen and (max-width: 850px) , screen and (max-height: 815px) {
+  .leftinfo, .rightinfo {
+  height: auto;
+  padding-bottom: 4em;
+  width: 50em;
+  background-color: #404040;
+  display: inline-block;
+  border: 2px solid black;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+  }

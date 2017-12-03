@@ -2,7 +2,7 @@ $(window).scroll(function () {
 if ($(window).scrollTop() >= 1) {
 $('header').css('background', '#404040');
 } else {
-$('header').css('background', '#222');
+$('header').css('background', 'transparent');
 $('.nav-toggle').removeClass('open');
 $('.menu-left').removeClass('collapse');
 }
