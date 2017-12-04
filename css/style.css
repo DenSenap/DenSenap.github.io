@@ -915,6 +915,23 @@ fieldset {
 }
 
 
+#timer {
+  font-size: 2em;
+  font-weight: 100;
+  color: white;
+  margin-top: 3em;
+  
+}
+#timer div {
+  display: inline-block;
+  min-width: 10vh;
+}
+#timer div span {
+  color: #F44336;
+  display: block;
+  font-size: 0.5em;
+  font-weight: 400;
+}
 
 
 
