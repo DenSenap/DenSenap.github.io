@@ -1,3 +1,5 @@
+
+
 $(window).scroll(function () {
 if ($(window).scrollTop() >= 1) {
 $('header').css('background', '#404040');
@@ -12,9 +14,13 @@ $(window).scroll(function() {
   if ($(window).scrollTop() > 50) {
     $('header').css('padding-top', '2vh');
     $('header').css('padding-bottom', '2vh');
+    
+    
 } else {
     $('header').css('padding-top', '5vh');
     $('header').css('padding-bottom', '5vh');
+    
+    
   }
 });
 
