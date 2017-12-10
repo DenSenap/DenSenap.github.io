@@ -1205,6 +1205,19 @@ footer {
   width: 20%;
 
   }
+  .button-big
+{
+  font-size: 2.5em;
+  width: 50%;
+  text-align:center;
+  padding: 0.2em 0em 0.2em 0em;
+  height: 10em;
+  margin-bottom: 5vh;
+  margin-left:auto;
+  margin-right:auto;
+  cursor: pointer;
+  border-radius: 30px;
+}
   .schema {
     width: 100%;
   }
