@@ -1208,10 +1208,10 @@ footer {
   .button-big
 {
   font-size: 2.5em;
-  width: 50%;
+  width: 40%;
   text-align:center;
   padding: 0.2em 0em 0.2em 0em;
-  height: 10em;
+  height: auto;
   margin-bottom: 5vh;
   margin-left:auto;
   margin-right:auto;
