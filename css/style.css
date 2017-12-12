@@ -571,11 +571,17 @@ section {
 }
 ul {
   list-style-type: none;
+  display: block;
+}
+.drinktext {
+  float: right!important;
+  text-align: right;
+  display: block;
 }
 .schema {
   width:80%;
   height:auto;
-  text-align: left;
+  margin-bottom: 10em;
   margin-left:auto;
   margin-right:auto;
   font-size: 2em;
@@ -591,16 +597,19 @@ ul {
   border-bottom: 3px solid #F44336;;
   display: flex;
 }
+
 #schematext {
   float: right!important;
   margin-right: 0.5em;
   margin-left:60%;
+
 }
 
 
 /*Hitta-hit section*/
 #hitta-hit {
   margin-bottom: 650px;
+  margin-top: 1000px;
 
 }
 #hitta-hit {
@@ -1084,13 +1093,118 @@ fieldset {
 /*Footer*/
 footer {
  height: auto;
- background-color: #333; 
+ background-color: #333!important;
  text-align: center; 
  border-top:1px solid rgba(50,50,50,0.7);
  font-size: 1.5em;
+ padding-bottom:5em;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+
+}
+footer .social-icon {
+    color: #fff;
+
+}
+footer ul.social-icons {
+    margin-top: 4em;
+
+}
+footer .social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: auto;
+    padding: 1em;
+
+}
+footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+    border-radius: 50%!important;
+}
+footer .fa-facebook:hover {
+    background-color: #3d5b99;
+}
+footer .fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+    background-color: #333;
+}
+footer .fa-twitter:hover {
+    background-color: #00aced;
+}
+footer .fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+    background-color: #333;
+}
+footer .fa-instagram:hover {
+    background-color: #cf178e;
+}
+.btn-link {
+  text-decoration: none!important;
+  background-color: transparent;
+  width:50%;
+  height: auto;
+  padding:1em;
+  line-height:auto;
+  -o-transition:.5s ease;
+    -ms-transition:.5s ease;
+    -moz-transition:.5s ease;
+    -webkit-transition:.5s ease;
+    transition: .5s ease;
+
+}
+
+.btn-link:hover {
+  text-decoration: none!important;
+  background-color: #F44336;
+  -o-transition:.5s ease;
+    -ms-transition:.5s ease;
+    -moz-transition:.5s ease;
+    -webkit-transition:.5s ease;
+    transition: .5s ease; 
+}
+
+footer .fa {
+  height: 3em;
+  font-size: 3em;
+  width: 3em;
+  border-radius: 50%;
+  line-height: 2.3em;
+  margin-bottom:1.5em;
+}
+._14 {
+  font-size: 3em;
+  
+  margin-top: 1em;
 }
 .yeesh {
-  margin-top: 5em;
+  margin-top: 1vh;
 
 }
 .biljetterbutton2 {
@@ -1142,6 +1256,46 @@ footer {
   -o-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   left: 135px;
+}
+#top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#top i{ 
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#top:hover{
+    background: rgba(0, 0, 0, 0.9);
+}
+#top:hover i{
+    color: #fff;
+    top: 5px;
 }
 
 
@@ -1220,6 +1374,7 @@ footer {
 }
   .schema {
     width: 100%;
+
   }
   .schema li {
   padding: 1em 0.5em;
@@ -1231,5 +1386,15 @@ footer {
   text-align: center;
   margin-right: 0.5em;
   margin-left:none;
+}
+#ryktet h3, #hitta-hit h3, #kontakt h3 {
+  font-size: 2.3em;
+  margin-top: 2em;
+  padding: 1em 0;
+  width: 80%;
+  margin-bottom: 1em;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom:3px solid #F44336;
 }
 }

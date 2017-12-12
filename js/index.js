@@ -1,3 +1,10 @@
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {    // If page is scrolled more than 50px
+        $('#top').fadeIn("fast");       // Fade in the arrow
+    } else {
+        $('#top').fadeOut("fast");      // Else fade out the arrow
+    }
+});
 
 
 $(window).scroll(function () {
