@@ -578,8 +578,74 @@ ul {
   text-align: right;
   display: block;
 }
+.webfest-schedule {
+  width: 70%;
+  max-width: 766px;
+  margin: 7.4vh auto 2em auto;
+  border: 1px solid #F44336;
+}
+.webfest-schedule1 {
+  width: 50%;
+  
+}
+
+.webfest-schedule thead {
+  background-color: #ff4d4d;
+  color: white !important;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.webfest-schedule th {
+  text-align: center;
+  padding: 0.5em 2em;
+}
+
+.webfest-schedule th h3 {
+  color: #fff;
+}
+
+.webfest-schedule th h3, .webfest-schedule .date {
+  text-transform: uppercase;
+}
+
+.webfest-schedule th h3, .webfest-schedule .date, .webfest-schedule p {
+  margin-bottom: 0;
+}
+
+
+
+.webfest-schedule tbody td:first-child {
+  text-align: center;
+
+}
+
+.webfest-schedule tr:nth-child(2n) {
+  background-color: #333;
+
+}
+.webfest-schedule1 tr:nth-child(2n) {
+  background-color: #333;
+
+}
+.webfest-schedule td {
+  padding: 0.5em;
+  height: 10vh;
+  font-size: 1.8em;
+}
+.webfest-schedule1 td {
+  padding: 0.5em;
+  height: 7vh;
+  font-size: 1.8em;
+}
+
+
+.webfest-schedule td strong {
+  text-transform: uppercase;
+}
+
 .schema {
-  width:80%;
+  width:70%;
   height:auto;
   margin-bottom: 10em;
   margin-left:auto;
@@ -604,7 +670,10 @@ ul {
   margin-left:60%;
 
 }
-
+#schema2 {
+    width: 100%;
+    margin-bottom: 5em;
+  }
 
 /*Hitta-hit section*/
 #hitta-hit {
@@ -1102,7 +1171,7 @@ footer {
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .footer-social-icons {
-    width: 350px;
+    width: 100%;
     display:block;
     margin: 0 auto;
 
@@ -1119,7 +1188,7 @@ footer .social-icons li {
     vertical-align: top;
     display: inline;
     height: auto;
-    padding: 1em;
+    padding: 0.2em;
 
 }
 footer .social-icons a {
@@ -1127,7 +1196,7 @@ footer .social-icons a {
     text-decoration: none;
 }
 footer .fa-facebook {
-    padding:10px 14px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -1140,7 +1209,7 @@ footer .fa-facebook:hover {
     background-color: #3d5b99;
 }
 footer .fa-twitter {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -1153,7 +1222,7 @@ footer .fa-twitter:hover {
     background-color: #00aced;
 }
 footer .fa-instagram {
-    padding:10px 14px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -1171,7 +1240,7 @@ footer .fa-instagram:hover {
   width:50%;
   height: auto;
   padding:1em;
-  line-height:auto;
+
   -o-transition:.5s ease;
     -ms-transition:.5s ease;
     -moz-transition:.5s ease;
@@ -1191,11 +1260,12 @@ footer .fa-instagram:hover {
 }
 
 footer .fa {
-  height: 3em;
+  height: auto;
+  padding: 0.5em;
   font-size: 3em;
-  width: 3em;
+  min-width: 2em;
   border-radius: 50%;
-  line-height: 2.3em;
+  
   margin-bottom:1.5em;
 }
 ._14 {
@@ -1346,9 +1416,10 @@ footer .fa {
   }
   footer {
  height: auto; 
- 
+ padding-bottom: 0.2em;
  font-size: 1em;
 }
+
   .removesmall {
     display: none;
   }
@@ -1376,6 +1447,9 @@ footer .fa {
     width: 100%;
 
   }
+  .schema2 {
+    width: 70%;
+  }
   .schema li {
   padding: 1em 0.5em;
   width:100%;
@@ -1396,5 +1470,13 @@ footer .fa {
   margin-left:auto;
   margin-right:auto;
   border-bottom:3px solid #F44336;
+}
+#ghost {
+  visibility: hidden;
+  width: 2vh;
+  height: 5vh;
+}
+.platser div {
+  width: 30%;
 }
 }
