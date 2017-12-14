@@ -1490,8 +1490,13 @@ footer .fa {
 }
 }
 @media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    overflow-x:hidden;
+  }
   body p {
     font-size: 0.9em;
+
   }
   .welcome {
     font-size: 0.55em;
