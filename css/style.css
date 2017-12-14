@@ -192,7 +192,7 @@ header {
 
 header nav .logo {
   float: left;
-  
+  padding-top: .25rem;
   margin-right: 1rem;
   margin-left:10vh;
   font-size: 2rem;
@@ -1488,3 +1488,40 @@ footer .fa {
   width: 30%;
 }
 }
+@media screen and (max-width: 768px) {
+  .welcome {
+    font-size: 0.55em;
+    padding-top: 18em;
+    padding-left:1em;
+    padding-right:1em;
+  }
+  .welcome h3 {
+    font-size: 2.8em;
+    
+  }
+  .biljetterbutton {
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  display: block;
+  margin: 30px auto;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius:35px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+  .one {
+  border-color: #fff;
+  overflow: hidden;
+  color: #fff;
+  background-color: #c32d22;
+
+}
+  }
