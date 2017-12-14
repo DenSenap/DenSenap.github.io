@@ -1166,7 +1166,7 @@ footer {
  text-align: center; 
  border-top:1px solid rgba(50,50,50,0.7);
  font-size: 1.5em;
- padding-bottom:5em;
+ padding-bottom:2px;
 }
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
@@ -1181,7 +1181,7 @@ footer .social-icon {
 
 }
 footer ul.social-icons {
-    margin-top: 4em;
+    margin-top: 2em;
 
 }
 footer .social-icons li {
@@ -1237,8 +1237,9 @@ footer .fa-instagram:hover {
 .btn-link {
   text-decoration: none!important;
   background-color: transparent;
-  width:50%;
-  height: auto;
+  width:25em;
+  margin-left:auto;
+  margin-right:auto;
   padding:1em;
 
   -o-transition:.5s ease;
@@ -1266,7 +1267,7 @@ footer .fa {
   min-width: 2em;
   border-radius: 50%;
   
-  margin-bottom:1.5em;
+  margin-bottom:0.5em;
 }
 ._14 {
   font-size: 3em;
@@ -1274,7 +1275,9 @@ footer .fa {
   margin-top: 1em;
 }
 .yeesh {
-  margin-top: 1vh;
+  margin-top: 4vh;
+  margin-bottom: none;
+
 
 }
 .biljetterbutton2 {
@@ -1367,6 +1370,11 @@ footer .fa {
     color: #fff;
     top: 5px;
 }
+.misc {
+  margin-left:auto;
+  margin-right:auto;
+  display: inline-flex;
+}
 
 
 /*RESPONSIVE*/
@@ -1416,7 +1424,7 @@ footer .fa {
   }
   footer {
  height: auto; 
- padding-bottom: 0.2em;
+ padding-bottom: 2px;
  font-size: 1em;
 }
 
