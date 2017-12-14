@@ -305,7 +305,7 @@ ul.menu-left.collapse {
   width: 38px;
   cursor: pointer;
   padding: 8px 8px;
-  margin-right: 6vh;
+  margin-right: 1.5em;
 }
 .nav-toggle.open span:first-child {
   transform: rotate(45deg) translate(4.4px, 4.4px);
@@ -1385,7 +1385,7 @@ footer .fa {
     display: none;
   }
   .leftinfo, .rightinfo {
-    width: 80%;
+   
   }
   .biginfo {
     display: block;
@@ -1420,7 +1420,7 @@ footer .fa {
 }
 @media screen and (max-width: 1200px) , screen and (max-height: 400px) {
   header nav .logo {
-    margin-left:6vh;
+    margin-left:1em;
 
   }
   footer {
@@ -1537,9 +1537,10 @@ footer .fa {
 .leftinfo, .rightinfo {
   height: auto;
   padding-bottom: 4em;
-  width: 50em;
+  max-width: 50em;
+  min-width: 10em;
   background-color: transparent;
-  display: inline-block;
+  display: inline;
   border: none;
   margin: 0 auto;
   text-align: center;
@@ -1573,7 +1574,7 @@ footer .fa {
 .biginfo {
   text-align: center;
   margin-top: 5em;
-  display: flex;
+  display: inline-block;
   margin-bottom: 10em;
   width: 100%;
 }
@@ -1677,4 +1678,7 @@ footer .fa {
   transform: scale(1.3);
   display: none;
 }
+.remove {
+    display: none;
+  }
 }
