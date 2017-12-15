@@ -13,6 +13,8 @@ p {
 }
 .sections {
   height: auto;
+  display: block!important;
+  margin-bottom: 15em;
   
   ;
 }
@@ -478,7 +480,7 @@ a img {
 section {
   text-align: center;
   height: auto;
-  display: block;
+  display: block!important;
   
  
 
@@ -605,9 +607,10 @@ ul {
 .webfest-schedule {
   width: 70%;
   max-width: 766px;
-  margin: 7.4vh auto 2em auto;
+  margin: 7.4vh auto 15em auto;
   border: 1px solid #F44336;
 }
+
 .webfest-schedule1 {
   width: 50%;
   
@@ -1812,6 +1815,7 @@ color:white;
   width:90%;
   max-width:90%;
 }
+
 
 
 fieldset {
