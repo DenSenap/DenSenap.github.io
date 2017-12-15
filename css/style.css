@@ -11,6 +11,11 @@
 p {
   font-family: 'Open Sans', sans-serif;
 }
+.sections {
+  height: auto;
+  
+  ;
+}
 
 body {
   background-color: #222;
@@ -468,6 +473,8 @@ a img {
 section {
   text-align: center;
   height: auto;
+  display: block;
+  margin: 50px auto;
  
 
   
@@ -1518,7 +1525,8 @@ footer .fa {
   height: 5vh;
 }
 .platser div {
-  width: 30%;
+  width: 15em;
+  height: 10em;
 }
 }
 @media screen and (max-width: 768px) {
@@ -1739,4 +1747,8 @@ color:white;
 .remove {
     display: none;
   }
+  .btn-link {
+  font-size: 1.5em;
+
+}
 }
