@@ -50,7 +50,7 @@
      <div id="container ">
      	<div class="start1">
 
-	    <div class="welcome">
+	      <div class="welcome">
 
           <h1>Välkommen till Ryktet</h1>
           <h3>Fredagen 4 Maj, 2018 • Stockholm, Brygghuset</h3>
@@ -62,7 +62,11 @@
 		    <div class='insider'></div>
 		    Biljetter
 	      </button></a>
-        <div class="mobile">
+        <div class="mobile leftinfo">
+          <p>20:00 - 01:00</p><br>
+          <a href="#ryktet"><button class="btn btn-danger">Kvällens schema</button></a>
+
+        </div>
 	      <div class="biginfo col-md-12 remove">
 	      	<div class="leftinfo col-md-6">
 	      		<h2>När?</h2><br>
@@ -145,9 +149,17 @@
     	<div class="col-md-6">
     	  <h3>Vad är Ryktet STHLM?</h3>
     	  <div class="description">
-    	  	<p>RYKTET är en av Stockholms bästa mötesplatser för ungdomar mellan 14-18 år som vill festa och träffa nya vänner. Allt är självklart helt alkohol- och drogfritt!<br><br>
+    	  	<p>RYKTET är en av Stockholms bästa mötesplatser för ungdomar mellan 14-18 år som vill festa och träffa nya vänner. Allt är självklart helt alkohol- och drogfritt!</p>
+          <a href="#" class="show_hide mobile" onclick="event.preventDefault();" style="display:block;width:100%; text-align: left;">Läs mer</a>
+<div class="slidingDiv">
+<p>Idén med RYKTET är att krossa normerna som säger att man måste dricka alkohol eller ta droger för att ha roligt. Det finns få tillfällen då ungdomar får möjlighet att ses och göra något roligt som är bara för dom. Vi är för unga för krogen men är samtidigt för gamla för mycket annat. Varför ska inte ungdomar få ha en fest som är bara för dom?<br><br>
+Detta projekt kör vi minst en gång varje år och vi hoppas är något som många kan se fram emot. Detta ska vara en miljö där vi kan känna oss avslappnade och trygga samtidigt som det ger alla ett minne för livet. Vi bjuder in hela Stockholms ungdomar och på så sätt blir även eventet en naturlig knutpunkt för integration.</p> <div style="text-align: right"> <a href="#" onclick="event.preventDefault();" class="show_hide" >Tillbaka</a></div></div>
+
+<div class="remove">
+  <p>
     	  	Idén med RYKTET är att krossa normerna som säger att man måste dricka alkohol eller ta droger för att ha roligt. Det finns få tillfällen då ungdomar får möjlighet att ses och göra något roligt som är bara för dom. Vi är för unga för krogen men är samtidigt för gamla för mycket annat. Varför ska inte ungdomar få ha en fest som är bara för dom?<br><br>
-            Detta projekt kör vi minst en gång varje år och vi hoppas är något som många kan se fram emot. Detta ska vara en miljö där vi kan känna oss avslappnade och trygga samtidigt som det ger alla ett minne för livet. Vi bjuder in hela Stockholms ungdomar och på så sätt blir även eventet en naturlig knutpunkt för integration.<br><br>
+            Detta projekt kör vi minst en gång varje år och vi hoppas är något som många kan se fram emot. Detta ska vara en miljö där vi kan känna oss avslappnade och trygga samtidigt som det ger alla ett minne för livet. Vi bjuder in hela Stockholms ungdomar och på så sätt blir även eventet en naturlig knutpunkt för integration.<br><br></p></div>
+            <div><p>
            <i>Bakom projektet står Stiftelsen Birkagården, Norrmalms Ungdomsråd och Bra Vibb - Produktion & Bokning.</i></p>
     	  </div>
     	</div>
@@ -240,6 +252,21 @@
     </tbody>
   </thead>
 </table>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$(".slidingDiv").hide();
+$(".show_hide").show();
+
+$('.show_hide').click(function(){
+$(".slidingDiv").slideToggle();
+});
+
+});
+
+
+</script>
    </section>
 
 
@@ -318,7 +345,7 @@
         </figure>
         <figure class="snip1344"><img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/20229186_1382255708562456_1327205254644030395_n.jpg?oh=a39750ae7d1b51af14db4dd2bca90f0f&oe=5AC59D75" alt="profile-sample6" class="background"/><img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/20229186_1382255708562456_1327205254644030395_n.jpg?oh=a39750ae7d1b51af14db4dd2bca90f0f&oe=5AC59D75" alt="profile-sample6" class="profile"/>
         <figcaption>
-          <h3>Jonatan Ullholm<span>Webmaster</span></h3>
+          <h3 style="white-space: nowrap;">Jonatan Ullholm<span>Webmaster</span></h3>
           <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"><h4>Läs mer</h4></a></div>
         </figcaption>
         </figure>

@@ -48,7 +48,10 @@ a {
   opacity: 0.8;
   
 }
-
+.mobile {
+  display: none!important;
+  color: gray!important;
+}
 
 /*Container styles*/
 @media (min-width: 0) {
@@ -99,12 +102,15 @@ a {
     clear: both;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
+
   }
+  
   .container:after {
     content: " ";
     display: block;
@@ -249,6 +255,9 @@ header nav ul li a {
   }
   ul li {
     padding: .5em 0;
+  }
+  .remove {
+    display: none;
   }
 }
 .hide-nav {
@@ -969,7 +978,9 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
+.start1 {
+    margin-bottom: 8em;
+  }
 .button-big
 {
   font-size: 2.5em;
@@ -1377,6 +1388,9 @@ footer .fa {
   display: inline-flex;
 }
 
+.remove {
+
+}
 
 /*RESPONSIVE*/
 
@@ -1384,9 +1398,10 @@ footer .fa {
   .remove {
     display: none;
   }
-  .leftinfo, .rightinfo {
-   
+  .mobile {
+    display: inline!important;
   }
+  
   .biginfo {
     display: block;
   
@@ -1401,6 +1416,9 @@ footer .fa {
 
 
 
+  }
+  .remove {
+    display: none;
   }
   ul.menu-left li {
   
@@ -1418,10 +1436,19 @@ footer .fa {
   
   }
 }
+@media screen and (max-height: 815px) {
+  .remove {
+    display: none;
+  }
+  }
+
 @media screen and (max-width: 1200px) , screen and (max-height: 400px) {
   header nav .logo {
     margin-left:1em;
 
+  }
+  .remove {
+    display: none;
   }
   footer {
  height: auto; 
@@ -1503,6 +1530,10 @@ footer .fa {
     padding-top: 18em;
     padding-left:1em;
     padding-right:1em;
+    margin-bottom: 5em!important;
+  }
+  .start1 {
+    margin-bottom: 5em;
   }
   .welcome h3 {
     font-size: 2.8em;
@@ -1540,7 +1571,7 @@ footer .fa {
   max-width: 50em;
   min-width: 10em;
   background-color: transparent;
-  display: inline;
+  display: none!important;
   border: none;
   margin: 0 auto;
   text-align: center;
@@ -1615,7 +1646,28 @@ footer .fa {
   background-color: transparent;
   border: none;
 }
+.show_hide {
 
+color: white;
+opacity:0.8;
+}
+.show_hide:visited {
+  color: white;
+  opacity:0.8;
+}
+.show_hide:hover {
+  color: white;
+  opacity:1;
+}
+.slidingDiv {
+height:auto;
+
+padding-left: 20px;
+margin-top:10px;
+border-bottom:5px solid #3399FF;
+margin-bottom: 1em;
+color:white;
+}
 .snip1344 .background {
   width: 100%;
   vertical-align: top;
@@ -1649,6 +1701,7 @@ footer .fa {
   margin: 0 0 5px;
   font-weight: 400;
   font-size: 1.9em;
+
 }
 .snip1344 h3 span {
   display: block;
