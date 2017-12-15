@@ -427,6 +427,7 @@ h1 {
   width: 100%;
   height: 100%;
   
+  
 
   
 }
@@ -453,9 +454,13 @@ h1 {
   width: 100%; 
   height: auto; 
 }
-@media screen and (max-width: 400px) {
-  .facebook-feed .black { margin: 1em; }
-  .facebook-feed  { padding: 1em; }
+@media screen and (max-width: 768px) {
+  .facebook-feed .black img { 
+    margin: 15em; 
+  }
+  .facebook-feed .black { 
+    padding: 15em; 
+  }
   
 }
 
@@ -709,10 +714,7 @@ ul {
 
 
 }
-.bryggimg img{
-  
-  
-}
+
 #hitta-hit h3 {
   font-size: 2.3em;
   margin-top: 2em;
@@ -1801,6 +1803,14 @@ color:white;
   display:block;
   font-size:1.6em;
   color: white;
+}
+.bryggimg img{
+  height: 25vh;
+  
+}
+.webfest-schedule1, .webfest-schedule {
+  width:90%;
+  max-width:90%;
 }
 
 
