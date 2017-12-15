@@ -881,6 +881,10 @@ ul {
   
   opacity:0.8;
 }
+.kontaktpersoner h4 {
+  
+  font-size: 0.6;
+}
 .container1 {
   max-width:400px;
   width:100%;
@@ -952,7 +956,7 @@ fieldset {
   width:100%;
   border:none;
   background:#F44336;
-  color:#FFF;
+  color:#FFF!important;
   margin:0 0 5px;
   padding:10px;
   font-size:15px;
@@ -1149,6 +1153,9 @@ fieldset {
   display: inline-flex;
   text-align: center;
   background-color: #333;
+}
+.platser div h3 {
+  font-size: 2em;
 }
 .platser div:hover {
   
@@ -1750,5 +1757,58 @@ color:white;
   .btn-link {
   font-size: 1.5em;
 
+}
+.kontaktpersoner p {
+  font-size: 0.6em;
+  
+}
+
+.kontaktpersoner h4 {
+  
+  font-size: 0.75em;
+}
+.container1 {
+  max-width:400px;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+
+}
+
+#contact1 input[type="text"], #contact1 input[type="email"], #contact1 input[type="tel"], #contact1 input[type="url"], #contact1 textarea, #contact1 button[type="submit"] { 
+  font-family:"Open Sans", Helvetica, Arial, sans-serif; 
+  color: black;
+  font-size: 1.8em;
+  border-radius: 10px;
+}
+
+#contact1 {
+  background:#222;
+  padding:10px 25px;
+  margin:0;
+  
+}
+
+#contact1 h3 {
+  color: white;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#contact1 h4 {
+  margin:1em 0 1.5em;
+  display:block;
+  font-size:1.6em;
+  color: white;
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
 }
 }
