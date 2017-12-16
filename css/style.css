@@ -416,13 +416,7 @@ h1 {
 
 
 
-.facebook-feed {
- display: inline-flex;
- text-align: center;
- margin-left: auto;
- margin-right: auto;
- 
-}
+
 .black img {
   
   width: 100%;
@@ -442,6 +436,9 @@ h1 {
   flex-flow: row wrap; 
   display: -webkit-box;
   display: flex;
+  text-align: center;
+ margin-left: auto;
+ margin-right: auto;
 }
 .facebook-feed .black { 
   -webkit-box-flex: auto;
@@ -1839,6 +1836,7 @@ color:white;
   border-radius: 10px;
 }
 
+
 #contact1 {
   background:#222;
   padding:10px 25px;
@@ -1876,5 +1874,24 @@ fieldset {
   min-width: 100%;
   padding: 0;
   width: 100%;
+}
+.facebook-feed { 
+  
+  display: inline-block;
+  margin-bottom: 1em;
+}
+.facebook-feed .black { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 150px; 
+  margin: 1vw; 
+  background-color: black;
+  display: inline-block;
+  
+}
+.removesmall { 
+  
+  display: none;
 }
 }
