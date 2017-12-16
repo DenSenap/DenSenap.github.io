@@ -1832,7 +1832,7 @@ color:white;
 #contact1 input[type="text"], #contact1 input[type="email"], #contact1 input[type="tel"], #contact1 input[type="url"], #contact1 textarea, #contact1 button[type="submit"] { 
   font-family:"Open Sans", Helvetica, Arial, sans-serif; 
   color: black;
-  font-size: 1.8em;
+  font-size: 1.55em;
   border-radius: 10px;
 }
 
