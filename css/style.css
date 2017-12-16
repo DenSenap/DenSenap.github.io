@@ -8,19 +8,14 @@
   padding: 0;
 }
 
+
 p {
   font-family: 'Open Sans', sans-serif;
 }
-.sections {
-  height: auto;
-  display: block!important;
-  margin-bottom: 15em;
-  
-  ;
-}
+
 
 body {
-  background-color: #222;
+  background-color: #222!important;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.5;
@@ -50,6 +45,9 @@ a {
   color: #F44336;
   opacity: 1;
   
+}
+.container-fluid {
+  background-color: #222;
 }
 #hitta-hit a:hover {
   opacity: 0.8;
@@ -604,6 +602,9 @@ ul {
   text-align: right;
   display: block;
 }
+.grayer {
+  background-color: #222!important;
+}
 .webfest-schedule {
   width: 70%;
   max-width: 766px;
@@ -704,7 +705,7 @@ ul {
 
 /*Hitta-hit section*/
 #hitta-hit {
-  margin-bottom: 650px;
+  
   margin-top: 1000px;
 
 }
@@ -1133,7 +1134,33 @@ fieldset {
   }
 }
 
+#om-oss {
+  border: 2px solid red;
+  border:none;
+  padding-bottom: 15vh;
+  padding-top: 0!important;
+  display: block!important;
+  background-color: #222!important;
+}
 
+#kontakt {
+  border: 2px solid green;
+  border:none;
+  padding-bottom: 15vh;
+  padding-top: 0!important;
+  background-color: #222!important;
+  display: block!important;
+}
+#sponsorer {
+  border: 2px solid blue;
+  border:none;
+ 
+  padding-bottom: 15vh;
+  display: block!important;
+  
+  background-color: #222!important;
+  
+}
 
 
 /*Sponsorer section*/
@@ -1198,7 +1225,7 @@ fieldset {
 /*Footer*/
 footer {
  height: auto;
- background-color: #333!important;
+ background-color: #333;
  text-align: center; 
  border-top:1px solid rgba(50,50,50,0.7);
  font-size: 1.5em;
