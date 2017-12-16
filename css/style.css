@@ -21,11 +21,12 @@ body {
   line-height: 1.5;
   color: white;
   font-weight: 100;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   min-height: 100%;
 }
-.start1 {
+#start1 {
   
   min-height: 100vh;
 
@@ -476,9 +477,7 @@ a img {
   
 }
 section {
-  text-align: center;
-  height: auto;
-  display: block!important;
+  
   
  
 
@@ -549,9 +548,7 @@ section {
 
 
 /*Ryktet section*/
-#ryktet {
-  margin-bottom: 25em;
-}
+
 
 #date {
   font-size: 2em;
@@ -608,7 +605,7 @@ ul {
 .webfest-schedule {
   width: 70%;
   max-width: 766px;
-  margin: 7.4vh auto 15em auto;
+  margin: 7.4vh auto 0 auto;
   border: 1px solid #F44336;
 }
 
@@ -706,13 +703,13 @@ ul {
 /*Hitta-hit section*/
 #hitta-hit {
   
-  margin-top: 1000px;
+  
 
 }
 #hitta-hit {
   
   margin-right:auto;
-  margin-top: -3vh;
+  
   margin-left: 0;
   text-align: center;
 
@@ -1133,29 +1130,49 @@ fieldset {
     color: #fff;
   }
 }
-
+#instalala {
+ 
+  padding-bottom: 5vh;
+  padding-top: 0vh;
+}
+#ryktet {
+  
+  height: auto;
+  padding-bottom: 5vh;
+  display: block!important;
+  background-color: #222!important;
+}
+#hitta-hit {
+  
+  
+  padding-bottom: 10vh;
+  padding-top: 0!important;
+  display: block!important;
+  background-color: #222!important;
+}
 #om-oss {
-  border: 2px solid red;
-  border:none;
-  padding-bottom: 15vh;
+  
+  
+  padding-bottom: 10vh;
   padding-top: 0!important;
   display: block!important;
   background-color: #222!important;
 }
 
+
 #kontakt {
-  border: 2px solid green;
-  border:none;
-  padding-bottom: 15vh;
+  
+  
+  padding-bottom: 10vh;
   padding-top: 0!important;
   background-color: #222!important;
   display: block!important;
 }
 #sponsorer {
-  border: 2px solid blue;
-  border:none;
+  
+  
  
-  padding-bottom: 15vh;
+  padding-bottom: 18vh;
   display: block!important;
   
   background-color: #222!important;
@@ -1178,8 +1195,8 @@ fieldset {
 }
 .platser div {
   margin-top: 2em;
-  height: 15vh;
-  width: 30vh;
+  height: 10vh;
+  width: 25vh;
   border: 2px double #F44336;
   
   display: inline-flex;
