@@ -760,13 +760,19 @@ ul {
 .lokaltext {
   
 }
+.no-padding {
+  padding-left: none;
+  padding-right:none;
+  width:100%!important;
+}
 .bryggimg img{
   
   margin-top: 10vh;
-  width: 100%;
+  width: 100%!important;
   height: 50vh;
   margin-left:none;
   margin-right:none;
+
   overflow: hidden;
   border-radius: 0px;
   border-top: 2px solid #333;
