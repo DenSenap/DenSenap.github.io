@@ -1200,7 +1200,7 @@ fieldset {
 }
 .platser div {
   margin-top: 2em;
-  height: 10vh;
+  height: 12.5vh;
   width: 25vh;
   border: 2px double #F44336;
   
@@ -1888,7 +1888,7 @@ fieldset {
   margin: 1vw; 
   background-color: black;
   display: inline-block;
-  
+
 }
 .removesmall { 
   
