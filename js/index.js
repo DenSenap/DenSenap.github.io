@@ -83,7 +83,7 @@ $('a[href^="#"]').on('click', function(event) {
   if($target.length) {
     event.preventDefault();
     $('html, body').stop().animate({
-      scrollTop: $target.offset().top -75
+      scrollTop: $target.offset().top -85
     }, 750, 'easeInOutQuad');
   }
 });
