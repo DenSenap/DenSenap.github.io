@@ -517,7 +517,7 @@ h1 {
   -ms-flex: auto;
   flex: auto; 
   width: 200px; 
-  margin: .5vw; 
+  margin: .5vw;
   height:100%;
   background-color: black;
   overflow:hidden;
@@ -527,12 +527,7 @@ h1 {
   height: 100%; 
 }
 @media screen and (max-width: 768px) {
-  .facebook-feed .black img { 
-    margin: 15em; 
-  }
-  .facebook-feed .black { 
-    padding: 15em; 
-  }
+  
   
 }
 
