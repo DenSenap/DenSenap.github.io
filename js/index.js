@@ -1,3 +1,20 @@
+
+$(document).ready(function(){
+  $('.click-popup-image').on('click', function(){
+    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-contact').on('click', function(){
+    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {    // If page is scrolled more than 50px
         $('#top').fadeIn("fast");       // Fade in the arrow
@@ -144,35 +161,6 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-$(document).ready(function(){
-  $('.click-popup-call-contact').on('click', function(){
-    $('.popup-call-contact').toggleClass('popup-call-contact-show');
-  });
-});
-
-$(document).ready(function(){
-  $('.close-contact').on('click', function(){
-    $('.popup-call-contact').toggleClass('popup-call-contact-show');
-  });
-});
-
-$(document).ready(function(){
-  $('.click-popup-call-skills').on('click', function(){
-    $('.popup-call-skills').toggleClass('popup-call-skills-show');
-  });
-});
-
-$(document).ready(function(){
-  $('.close-skills').on('click', function(){
-    $('.popup-call-skills').toggleClass('popup-call-skills-show');
-  });
-});
-
-$(document).ready(function(){
-  $('.meddelande').on('click', function(){
-    $('.popup-call-contact').toggleClass('popup-call-contact-show');
-  });
-});
 
 $(document).ready(function(){
   $('.click-popup-call-read').on('click', function(){
