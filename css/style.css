@@ -522,6 +522,9 @@ h1 {
 .click-popup-image {
   cursor:pointer;
 }
+.click {
+  cursor:pointer;
+}
 .facebook-feed { 
   padding: .5vw;
   font-size: 2em;
@@ -1269,7 +1272,7 @@ fieldset {
     color: #fff;
   }
 }
-#instalala {
+#photos {
  
   padding-bottom: 5vh;
   padding-top: 0vh;
@@ -1597,6 +1600,32 @@ footer .fa {
 
 .remove {
 
+}
+/*IMAGE PLAYGROUND*/
+#overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 998;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 70vh;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+}
+
+#photo-gallery {
+  width: 100%;
 }
 
 /*RESPONSIVE*/
@@ -2034,5 +2063,10 @@ fieldset {
   margin-left:50%;
   font-size: 2em;
   -webkit-transform: translate(-50%, -15%);
+}
+#overlay img {
+  margin: 20% auto 0;
+  width: 95%;
+  border-radius: 5px;
 }
 }
