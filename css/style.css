@@ -40,7 +40,9 @@ p {
   margin:auto;
   clear:both;
   height:400px;
-  width:600px;
+  width:85%;
+  max-width:600px;
+
   padding:15px;
   border:2px solid gray;
   left:0;
@@ -569,6 +571,13 @@ h1 {
 }
 .nobreak {
   pointer-events:none
+}
+.glyphicon-fullscreen {
+  position: absolute;
+  margin-top:50%;
+  margin-left:50%;
+  font-size: 2em;
+  -webkit-transform: translate(-50%, -15%);
 }
 .black img {
     display: block;
@@ -2018,5 +2027,12 @@ fieldset {
 .removesmall { 
   
   display: none;
+}
+.glyphicon-fullscreen {
+  position: absolute;
+  margin-top:40%;
+  margin-left:50%;
+  font-size: 2em;
+  -webkit-transform: translate(-50%, -15%);
 }
 }
