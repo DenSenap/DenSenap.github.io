@@ -1,5 +1,5 @@
 
-
+//Jobbar fortfarande
 $(document).ready(function(){
   $('.click-popup-image').on('click', function(){
     $('.popup-call-contact').toggleClass('popup-call-show');
@@ -14,7 +14,7 @@ $(document).ready(function(){
   });
   
 });
-
+//Sponsor Popup
 $(document).ready(function(){
   $('.click-popup-sponsor').on('click', function(){
     $('.popup-call-sponsor').toggleClass('popup-call-show');
@@ -29,7 +29,55 @@ $(document).ready(function(){
   });
   
 });
+//Jakob ungdom 1
+$(document).ready(function(){
+  $('.click-popup-jakob').on('click', function(){
+    $('.popup-call-jakob').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
 
+$(document).ready(function(){
+  $('.close-jakob').on('click', function(){
+    $('.popup-call-jakob').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Emil ungdom 2
+$(document).ready(function(){
+  $('.click-popup-emil').on('click', function(){
+    $('.popup-call-emil').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-emil').on('click', function(){
+    $('.popup-call-emil').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Yoel ungdom 3
+$(document).ready(function(){
+  $('.click-popup-yoel').on('click', function(){
+    $('.popup-call-yoel').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-yoel').on('click', function(){
+    $('.popup-call-yoel').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Jonatan ungdom 4
 $(document).ready(function(){
   $('.click-popup-jonatan').on('click', function(){
     $('.popup-call-jonatan').toggleClass('popup-call-show');
@@ -40,6 +88,102 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.close-jonatan').on('click', function(){
     $('.popup-call-jonatan').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Lovisa ungdom 5
+$(document).ready(function(){
+  $('.click-popup-lovisa').on('click', function(){
+    $('.popup-call-lovisa').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-lovisa').on('click', function(){
+    $('.popup-call-lovisa').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Adam ungdom 6
+$(document).ready(function(){
+  $('.click-popup-adam').on('click', function(){
+    $('.popup-call-adam').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-adam').on('click', function(){
+    $('.popup-call-adam').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Aaron ungdom 7
+$(document).ready(function(){
+  $('.click-popup-aaron').on('click', function(){
+    $('.popup-call-aaron').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-aaron').on('click', function(){
+    $('.popup-call-aaron').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Meron ungdom 8
+$(document).ready(function(){
+  $('.click-popup-meron').on('click', function(){
+    $('.popup-call-meron').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-meron').on('click', function(){
+    $('.popup-call-meron').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Kevin ungdom 9
+$(document).ready(function(){
+  $('.click-popup-kevin').on('click', function(){
+    $('.popup-call-kevin').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-kevin').on('click', function(){
+    $('.popup-call-kevin').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+//Natnael ungdom 10
+$(document).ready(function(){
+  $('.click-popup-natnael').on('click', function(){
+    $('.popup-call-natnael').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-natnael').on('click', function(){
+    $('.popup-call-natnael').toggleClass('popup-call-show');
     $(".blur-not").toggleClass("blur-filter");
   });
   

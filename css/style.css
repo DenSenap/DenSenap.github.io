@@ -76,7 +76,7 @@ p {
   transform:scale(0);
   transition: 0.5s ease all;
 }
-.popup-call-jonatan {
+.popup-call-ungdom {
   position:fixed;
   text-align:left;
   z-index:9999;
@@ -135,6 +135,19 @@ p {
 }
 .profile-social-links li {
   padding:0 5vh;
+  color: white!important;
+
+
+}
+.profile-social-links li a {
+  opacity:0.8;
+  color: white!important;
+
+
+}
+.profile-social-links li a:hover {
+  
+  opacity:1;
 
 
 }
@@ -178,11 +191,11 @@ color:white;
   display: inline-block;
   font-family: 'Roboto';
 }
-.close-contact:before,.close-sponsor:before, .close-jonatan:before {
+.close-contact:before,.close-sponsor:before, .close-jakob:before, .close-emil:before, .close-yoel:before, .close-jonatan:before, .close-lovisa:before, .close-adam:before, .close-aaron:before, .close-meron:before, .close-kevin:before, .close-natnael:before {
   content: '✕';
   font-size: 1.8em;
 }
-.close-contact, .close-sponsor, .close-jonatan {
+.close-contact, .close-sponsor, .close-jakob, .close-emil, .close-yoel, .close-jonatan, .close-lovisa, .close-adam, .close-aaron, .close-meron, .close-kevin, .close-natnael {
   position: absolute;
   top: -0.3em;
   right: 0.2em;
@@ -2164,7 +2177,7 @@ fieldset {
   text-align:center;
 
 }
-.popup-call-jonatan {
+.popup-call-ungdom {
   
   overflow-y:scroll;
   overflow-x:hidden;
