@@ -55,7 +55,31 @@ p {
   transform:scale(0);
   transition: 0.5s ease all;
 }
-.popup-call-contact-show {
+.popup-call-sponsor {
+  position:fixed;
+  text-align:left;
+  z-index:9999;
+  margin:auto;
+  clear:both;
+  height:400px;
+  width:85%;
+  max-width:600px;
+
+  padding:15px;
+  
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+  background:#333;
+  opacity:0;
+  transform:scale(0);
+  transition: 0.5s ease all;
+  
+  
+}
+.popup-call-contact-show, .popup-call-sponsor-show {
   opacity:1;
   transform:scale(1);
   transition: 0.5s ease all;
@@ -88,11 +112,11 @@ color:white;
   display: inline-block;
   font-family: 'Roboto';
 }
-.close-contact:before{
+.close-contact:before,.close-sponsor:before {
   content: '✕';
   font-size: 1.8em;
 }
-.close-contact {
+.close-contact, .close-sponsor {
   position: absolute;
   top: -0.3em;
   right: 0.2em;
@@ -1340,7 +1364,7 @@ fieldset {
   height: 12.5vh;
   width: 25vh;
   border: 2px double #F44336;
-  
+  cursor: pointer;
   display: inline-flex;
   text-align: center;
   background-color: #333;

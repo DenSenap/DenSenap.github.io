@@ -15,6 +15,21 @@ $(document).ready(function(){
   
 });
 
+$(document).ready(function(){
+  $('.click-popup-sponsor').on('click', function(){
+    $('.popup-call-sponsor').toggleClass('popup-call-sponsor-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-sponsor').on('click', function(){
+    $('.popup-call-sponsor').toggleClass('popup-call-sponsor-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
 
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {    // If page is scrolled more than 50px
