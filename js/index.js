@@ -2,14 +2,14 @@
 
 $(document).ready(function(){
   $('.click-popup-image').on('click', function(){
-    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+    $('.popup-call-contact').toggleClass('popup-call-show');
     $('.blur-not').toggleClass('blur-filter');
   });
 });
 
 $(document).ready(function(){
   $('.close-contact').on('click', function(){
-    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+    $('.popup-call-contact').toggleClass('popup-call-show');
     $(".blur-not").toggleClass("blur-filter");
   });
   
@@ -17,14 +17,29 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.click-popup-sponsor').on('click', function(){
-    $('.popup-call-sponsor').toggleClass('popup-call-sponsor-show');
+    $('.popup-call-sponsor').toggleClass('popup-call-show');
     $('.blur-not').toggleClass('blur-filter');
   });
 });
 
 $(document).ready(function(){
   $('.close-sponsor').on('click', function(){
-    $('.popup-call-sponsor').toggleClass('popup-call-sponsor-show');
+    $('.popup-call-sponsor').toggleClass('popup-call-show');
+    $(".blur-not").toggleClass("blur-filter");
+  });
+  
+});
+
+$(document).ready(function(){
+  $('.click-popup-jonatan').on('click', function(){
+    $('.popup-call-jonatan').toggleClass('popup-call-show');
+    $('.blur-not').toggleClass('blur-filter');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-jonatan').on('click', function(){
+    $('.popup-call-jonatan').toggleClass('popup-call-show');
     $(".blur-not").toggleClass("blur-filter");
   });
   
