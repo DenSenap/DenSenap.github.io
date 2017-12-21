@@ -1,4 +1,6 @@
-
+$(function() {
+    $( "#tabs" ).tabs();
+});
 //Jobbar fortfarande
 $(document).ready(function(){
   $('.click-popup-image').on('click', function(){

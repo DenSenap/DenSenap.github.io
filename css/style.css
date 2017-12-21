@@ -13,6 +13,150 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+#tabs {
+  margin: 1em auto;
+  width: 70%;
+  margin-top: 8em;
+
+}
+#tabs ul {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+}
+#tabs ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#tabs ul li {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #262626;
+  border-bottom: 1px solid #F44336;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+#tabs ul li:first-child {
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  border-right: 1px solid #F44336;
+}
+#tabs ul li:last-child {
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  border-left: 1px solid #F44336;
+}
+#tabs ul li a {
+  display: block;
+  padding: 1em;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  font-size:1em;
+  color: #F44336;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#tabs ul li span {
+  display: block;
+  margin-bottom: 0.75em;
+}
+#tabs ul .ui-tabs-active {
+  background: #333;
+  border-bottom: none;
+}
+#tabs ul .ui-tabs-active a {
+  color: #fff;
+}
+#tabs ul .ui-tabs-active span {
+  color: #F44336;
+}
+#tabs h3, #tabs h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+#tabs h3 {
+  margin: 0em 0;
+  border-bottom: 1px solid rgba(126, 149, 180, 0.5);
+  padding-bottom: 0.05em;
+  font-size: 2.5em;
+  color: #Fff;
+  font-weight: 300;
+}
+#tabs h4 {
+  margin: 0.25em 0;
+  font-size: 1.35em;
+  color: #fff;
+  font-weight: 700;
+}
+#tabs .tagline {
+  display: block;
+  margin-top: 1.25em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+  color: #aa7786;
+  text-transform: lowercase;
+}
+
+.tabs-content {
+  background-color: #333;
+}
+.tabs-content article {
+  padding: 1em;
+}
+.tabs-content article p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+}
+.tabs-content article .readmore {
+  display: block;
+  margin-top: 1.5em;
+  padding-top: 0.25em;
+  border-top: 1px solid #F44336;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+.tabs-content article .readmore::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.tabs-content article .readmore a {
+  display: block;
+  margin: 1em 0;
+  float: right;
+  color: #fff;
+  opacity:0.8;
+  text-decoration: none;
+}
+.tabs-content article .readmore a:hover {
+  opacity:1;
+}
+.tabs-content article .readmore span {
+  padding-left: 1em;
+  vertical-align: middle;
+}
+.tabs-content article img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5em;
+  vertical-align: bottom;
+}
+
 .blur-not {
   -webkit-filter: none;
   -moz-filter: none;
@@ -840,14 +984,14 @@ ul {
   background-color: #222!important;
 }
 .webfest-schedule {
-  width: 70%;
+  width: 100%;
   max-width: 766px;
   margin: 7.4vh auto 0 auto;
   border: 1px solid #F44336;
 }
 
 .webfest-schedule1 {
-  width: 50%;
+  width: 100%;
   
 }
 
@@ -876,10 +1020,14 @@ ul {
 }
 
 
+.webfest-schedule tbody  {
+  
+  background-color: #222;
 
+}
 .webfest-schedule tbody td:first-child {
   text-align: center;
-
+  
 
 }
 
@@ -887,6 +1035,7 @@ ul {
   background-color: #333;
 
 }
+
 .webfest-schedule1 tr:nth-child(2n) {
   background-color: #333;
 
@@ -931,12 +1080,7 @@ ul {
   display: flex;
 }
 
-#schematext {
-  float: right!important;
-  margin-right: 0.5em;
-  margin-left:60%;
 
-}
 #schema2 {
     width: 100%;
     margin-bottom: 5em;
@@ -1836,11 +1980,7 @@ footer .fa {
   border-bottom: 3px solid #F44336;;
   display: inline-block;
   }
-  #schematext {
-  text-align: center;
-  margin-right: 0.5em;
-  margin-left:none;
-}
+
 #ryktet h3, #hitta-hit h3, #kontakt h3 {
   font-size: 2.3em;
   margin-top: 2em;
@@ -2132,10 +2272,7 @@ color:white;
   height: 25vh;
   
 }
-.webfest-schedule1, .webfest-schedule {
-  width:90%;
-  max-width:90%;
-}
+
 
 
 
@@ -2191,6 +2328,12 @@ fieldset {
   padding-top:1em;
   font-size: 3em;
   
+
+}
+#tabs {
+  margin: 1em auto;
+  width: 100%;
+  margin-top: 8em;
 
 }
 }
