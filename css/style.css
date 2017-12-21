@@ -971,6 +971,17 @@ section {
   padding: 2em 1em;
   margin-top: 0em;
 }
+.descriptionbig {
+  width:80%;
+  height:auto;
+  
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 2em;
+  box-sizing: border-box;
+  padding: 2em 1em;
+  margin-top: 0em;
+}
 ul {
   list-style-type: none;
   display: block;
@@ -2335,5 +2346,16 @@ fieldset {
   width: 100%;
   margin-top: 8em;
 
+}
+.descriptionbig {
+  width:100%;
+  height:auto;
+  
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 2em;
+  box-sizing: border-box;
+  padding: 2em 1em;
+  margin-top: 0em;
 }
 }
