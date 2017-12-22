@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
   <title>Ryktet STHLM</title>
@@ -1147,22 +1147,33 @@ function openCity(evt, cityName) {
     
     <h4>Under normala förhållanden svarar vi inom 24 timmar när du skriver här.</h4>
     <fieldset>
-      <input placeholder="*Namn" type="text" tabindex="1" name="namn: " required >
+      <input placeholder="*Namn" type="text" tabindex="1" name="namn: " required title="Fyll i ditt namn här" oninvalid="this.setCustomValidity('Fyll i ditt namn här')"
+    oninput="setCustomValidity('')">
     </fieldset>
     <fieldset>
-      <input placeholder="*E-post" type="email" tabindex="2" name="e-post: " required>
+      <input placeholder="*E-post" type="email" tabindex="2" name="e-post: " required title="Fyll i din e-postadress här" oninvalid="this.setCustomValidity('Fyll i din e-postadress här')"
+    oninput="setCustomValidity('')">
     </fieldset>
     <fieldset>
-      <input placeholder="Telefonnummer" type="tel" name="tel: " tabindex="3">
+      <input placeholder="Telefonnummer" type="tel" name="tel: " tabindex="3" title="Fyll i ditt telefonnummer här">
     </fieldset>
     <fieldset>
-      <textarea placeholder="*Meddelande...." tabindex="5" name="meddelande: " required></textarea>
+      <textarea placeholder="*Meddelande...." tabindex="5" name="meddelande: " required title="Fyll i ditt meddelande här" oninvalid="this.setCustomValidity('Fyll i ditt meddelande här')"
+    oninput="setCustomValidity('')"></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Skicka!</button>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Skicka!</button>
     </fieldset>
   </form>
- 
+ <script>
+$('input[type="email"]')
+	.on('invalid', function(){
+		return this.setCustomValidity('Vänligen fyll i en giltig e-postadress');
+	})
+	.on('input', function(){
+		return this.setCustomValidity('');
+	});
+</script>
   
 </div>
 
