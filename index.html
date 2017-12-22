@@ -186,7 +186,21 @@
     	    </div>
     	</div>
       </div>
-      
+      <script type="text/javascript">
+
+$(document).ready(function(){
+
+$(".slidingDiv").hide();
+$(".show_hide").show();
+
+$('.show_hide').click(function(){
+$(".slidingDiv").slideToggle();
+});
+
+});
+
+
+</script>
       
 <div class="col-md-6 col-xs-12" >
 	<div id='tabs'>
@@ -330,21 +344,7 @@ function openCity(evt, cityName) {
   evt.currentTarget.firstElementChild.className += " w3-border-red";
 }
 </script>
-<script type="text/javascript">
 
-$(document).ready(function(){
-
-$(".slidingDiv").hide();
-$(".show_hide").show();
-
-$('.show_hide').click(function(){
-$(".slidingDiv").slideToggle();
-});
-
-});
-
-
-</script>
 </div>
 <div class="blur-not"></div>
 
