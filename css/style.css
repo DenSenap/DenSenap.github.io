@@ -571,6 +571,7 @@ header nav ul li {
   margin-left: 0;
   font-family: 'Ubuntu', sans-serif;
   font-weight: normal;
+
 }
 @media (min-width: 1200px) {
   header nav ul li {
@@ -619,12 +620,14 @@ ul.menu-left {
   margin-right:10vh;
   color: white;
 
+
   
 }
 
 ul.menu-left a:hover {
   color:#F44336;
   text-decoration:none;
+  
 
 }
 
