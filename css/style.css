@@ -1725,7 +1725,9 @@ footer .fa-instagram:hover {
 .btn-link {
   text-decoration: none!important;
   background-color: transparent;
-  width:25em;
+  width:25vh;
+  min-width:10em;
+  border-radius: 30px;
   margin-left:auto;
   margin-right:auto;
   padding:1em;

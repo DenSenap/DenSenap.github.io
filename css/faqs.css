@@ -6,12 +6,13 @@
 strong { font-weight: bold; }
 
 body {
-  background-color:#222;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.8rem;
+  background-color: #222!important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
   line-height: 1.5;
   color: white;
   font-weight: 100;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   min-height: 100%;
@@ -23,7 +24,9 @@ body {
 }
 .bigbuttons {
   text-align: center;
-  
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   ;
 
 }
@@ -720,7 +723,9 @@ footer .fa-instagram:hover {
 .btn-link {
   text-decoration: none!important;
   background-color: transparent;
-  width:25em;
+  width:25vh;
+  min-width:10em;
+  border-radius: 30px;
   margin-left:auto;
   margin-right:auto;
   padding:1em;
@@ -949,129 +954,6 @@ footer .row2 {
   
 }
 
-.popup-text .row2 {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  
-}
-
-.kop-top {
-  font-size: 1em;
-  padding: 0.5em;
-  color: white!important;
-  border-radius: 5px;
-  margin-top: 2em;
-
-}
-
-.kop-bottom {
-  font-size: 0.8em;
-  padding: 0.5em;
-  border-radius: 5px;
-  color: black;
-  background-color: transparent!important;
-
-}
-
-.kop-top:hover {
-  color: white!important;
-  opacity: 0.9;
-}
-.kop-bottom:hover {
-  color: black!important;
-  opacity: 0.9;
-  background-color: transparent!important;
-}
-
-.btn-success {
-  margin-top: 3em;
-}
-
-.kalkon img {
-  margin-top: 1.8rem;
-  position: relative;
-  left: -2em;
-  top: -0.8em;
-  border: 1px solid black;
-  width: 97%;
-  height: 97%;
-}
-
-.kalkon h3 {
-  text-align: center;
-
-}
-.kyckling {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-.bild-och-text img {
-  width:70%;
-  height: auto;
-}
-.bild-och-text p {
-  width: 70%; 
-  background-color: rgb(240,240,240);
-  opacity: 1; 
-  margin-left: auto;
-  margin-right: auto;
-
-}
- .bild-och-text h3 {
-  text-align: center; 
-  color: black; 
-  width: 80%; 
-  margin-left: auto; 
-  margin-right: auto
-}
-
-#contact {
-  background-color: #ffffff;
-  border-radius: 0px;
-}
-
-#skills,#exp {
-  background-color:#ffffff ;
-
-}
-#skills {
-  border-top-left-radius: 0px;
-   border-top-right-radius: 0px;
-}
-
-#exp {
-  border-radius: 0px;
-}
-
-#biljetter {
-  background-color:#ffffff;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-.skillstext {
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto; 
-  font-size: 1.5em; "
-}
-
-.skillsbutton {
-  margin-top: 2em; 
-  text-align: left
-}
-.skillstitle {
-  margin-bottom: 2em
-}
-.skillstunnelbana {
-  margin-top: 2em;
-  font-size: 1.2em
-}
-.questions-anchor {
-  text-align: center;
-}
 
 
 @media screen and (max-width: 1300px) , screen and (max-height: 700px) {
@@ -1147,42 +1029,7 @@ margin-top:2em;
   display: inline;
 }
   
-  .kalkon h3 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-
- .popup-text{
-  order: 1;
-  float: none;
-  margin-left:auto;
-  margin-right: auto; 
-  margin-bottom: 1em;
-}
- .form {
-  order: 2;
-  width: 50%;
-  float: none;
-  padding:0;
-  margin-left:auto;
-  margin-right: auto;
-
-
- }
- .form textarea{
-  
-  height: 4.5em;
-  margin-bottom:5px;
- }
- footer {
-  height: 46vh;
- }
- section {
-  height: auto;
-  
-
-}
+ 
 
 }
 
