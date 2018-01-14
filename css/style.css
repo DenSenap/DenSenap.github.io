@@ -1670,8 +1670,7 @@ footer .social-icon {
 }
 footer ul.social-icons {
     margin-top: 2em;
-
-}
+   }
 footer .social-icons li {
     vertical-align: top;
     display: inline;
@@ -1757,7 +1756,7 @@ footer .fa {
   min-width: 2em;
   border-radius: 50%;
   
-  margin-bottom:0.5em;
+  margin-bottom:0em;
 }
 ._14 {
   font-size: 3em;

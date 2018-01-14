@@ -1,3 +1,5 @@
+
+
 function updateTimer() {
     future = Date.parse("May 4, 2018 20:00:00");
     now = new Date();
