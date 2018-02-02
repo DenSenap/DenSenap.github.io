@@ -1601,7 +1601,7 @@ fieldset {
   text-decoration: none!important;
   color: white!important;
 }
-.platser div {
+.platser .tomlucka {
   margin-top: 2em;
   height: 12.5vh;
   width: 25vh;
@@ -1611,12 +1611,38 @@ fieldset {
   text-align: center;
   background-color: #333;
 }
-.platser div h3 {
+.platser-nere .sponsorimages {
+  height:auto;
+  width: 100%;
+  margin-top: 2em;
+  height: 12.5vh;
+  width: 25vh;
+  display: inline-flex;
+  text-align: center;
+  
+
+}
+
+.platser-nere {
+  display: inline-flex;
+  margin-top: 8vh;
+}
+.platser-nere .sponsorimages img {
+  height:auto;
+  width: 100%;
+
+
+}
+.platser .tomlucka h3 {
   font-size: 2em;
 }
-.platser div:hover {
+.platser .tomlucka:hover {
   
   background-color: #555;
+}
+.platser-nere .sponsorimages:hover {
+  
+  border: 2px solid transparent;
 }
 #ghost {
   visibility: hidden;
