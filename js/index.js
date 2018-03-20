@@ -191,6 +191,22 @@ $(document).ready(function() {
 
 });
 
+//Milkias ungdom 11
+$(document).ready(function() {
+    $('.click-popup-milkias').on('click', function() {
+        $('.popup-call-milkias').toggleClass('popup-call-show');
+        $('.blur-not').toggleClass('blur-filter');
+    });
+});
+
+$(document).ready(function() {
+    $('.close-milkias').on('click', function() {
+        $('.popup-call-milkias').toggleClass('popup-call-show');
+        $(".blur-not").toggleClass("blur-filter");
+    });
+
+});
+
 
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
