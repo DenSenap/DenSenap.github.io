@@ -20,6 +20,9 @@ p {
   margin-top: 8em;
 
 }
+#poster {
+  width:70%;
+}
 #tabs ul {
   margin: 0;
   padding: 0;
