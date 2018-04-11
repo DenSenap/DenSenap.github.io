@@ -16,6 +16,21 @@ $(document).ready(function() {
     });
 
 });
+//Information för föräldrar
+$(document).ready(function() {
+    $('.click-popup-information').on('click', function() {
+        $('.popup-call-information').toggleClass('popup-call-show');
+        $('.blur-not').toggleClass('blur-filter');
+    });
+});
+
+$(document).ready(function() {
+    $('.close-information').on('click', function() {
+        $('.popup-call-information').toggleClass('popup-call-show');
+        $(".blur-not").toggleClass("blur-filter");
+    });
+
+});
 //Sponsor Popup
 $(document).ready(function() {
     $('.click-popup-sponsor').on('click', function() {
@@ -240,6 +255,7 @@ $(window).scroll(function() {
 
     }
 });
+
 
 
 var $overlay = $('<div id="overlay"></div>');
