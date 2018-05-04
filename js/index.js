@@ -308,6 +308,52 @@ function updateTimer() {
 }
 setInterval('updateTimer()', 1000);
 
+function updateTimer2() {
+    future = Date.parse("May 4, 2018 20:00:00");
+    now = new Date();
+    diff = future - now;
+
+    days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    hours = Math.floor(diff / (1000 * 60 * 60));
+    mins = Math.floor(diff / (1000 * 60));
+    secs = Math.floor(diff / 1000);
+
+    d = days;
+    h = hours - days * 24;
+    m = mins - hours * 60;
+    s = secs - mins * 60;
+
+    document.getElementById("timer2")
+        .innerHTML =
+        '<div>' + d + '<span>Dagar</span></div>' +
+        '<div>' + h + '<span>Timmar</span></div>' +
+        '<div>' + m + '<span>Minuter</span></div>' +
+        '<div>' + s + '<span>Sekunder</span></div>';
+}
+setInterval('updateTimer2()', 1000);
+
+function hasTouch() {
+    return 'ontouchstart' in document.documentElement
+           || navigator.maxTouchPoints > 0
+           || navigator.msMaxTouchPoints > 0;
+}
+
+if (hasTouch()) { // remove all :hover stylesheets
+    try { // prevent exception on browsers not supporting DOM styleSheets properly
+        for (var si in document.styleSheets) {
+            var styleSheet = document.styleSheets[si];
+            if (!styleSheet.rules) continue;
+
+            for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+                if (!styleSheet.rules[ri].selectorText) continue;
+
+                if (styleSheet.rules[ri].selectorText.match(':hover')) {
+                    styleSheet.deleteRule(ri);
+                }
+            }
+        }
+    } catch (ex) {}
+}
 
 
 
