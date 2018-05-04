@@ -323,7 +323,7 @@ $("#overlay").click(function() {
 function updateTimer() {
     future = Date.parse("May 4, 2018 20:00:00");
     now = new Date();
-    diff = future - now;
+    diff = future - future;
 
     days = Math.floor(diff / (1000 * 60 * 60 * 24));
     hours = Math.floor(diff / (1000 * 60 * 60));
