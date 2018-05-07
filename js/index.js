@@ -321,9 +321,15 @@ $("#overlay").click(function() {
 
 
 function updateTimer() {
-    future = Date.parse("May 4, 2018 20:00:00");
+    future = Date.parse("May 7, 2018 16:25:00");
     now = new Date();
+    
+    if (future < new Date()) {
     diff = future - future;
+        } else {
+    diff = future - now;
+        }    
+        
 
     days = Math.floor(diff / (1000 * 60 * 60 * 24));
     hours = Math.floor(diff / (1000 * 60 * 60));
@@ -335,19 +341,29 @@ function updateTimer() {
     m = mins - hours * 60;
     s = secs - mins * 60;
 
+    
     document.getElementById("timer")
         .innerHTML =
         '<div>' + d + '<span>Dagar</span></div>' +
         '<div>' + h + '<span>Timmar</span></div>' +
         '<div>' + m + '<span>Minuter</span></div>' +
         '<div>' + s + '<span>Sekunder</span></div>';
+
+        
 }
 setInterval('updateTimer()', 1000);
 
+
+
 function updateTimer2() {
-    future = Date.parse("May 4, 2018 20:00:00");
+    future = Date.parse("May 7, 2018 16:25:00");
     now = new Date();
+    if (future < new Date()) {
     diff = future - future;
+        } else {
+    diff = future - now;
+        }    
+        
 
     days = Math.floor(diff / (1000 * 60 * 60 * 24));
     hours = Math.floor(diff / (1000 * 60 * 60));
