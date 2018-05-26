@@ -483,7 +483,7 @@ h3{
 }
 .col-md-3 img {
   width: 25em;
-  height:25em;
+  min-height:25em;
 }
 .group {
   display: inline-block;
