@@ -356,7 +356,7 @@ setInterval('updateTimer()', 1000);
 
 
 function updateTimer2() {
-    future = Date.parse("May 7, 2018 16:25:00");
+    future = Date.parse("December 15, 2018 20:00:00");
     now = new Date();
     if (future < new Date()) {
     diff = future - future;
