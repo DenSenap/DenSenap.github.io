@@ -291,6 +291,27 @@ p {
   
   
 }
+
+.vip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:3vh;
+  width: 60vh;
+  
+}
+
+.vip #vipimg {
+  position: relative;
+  top:0;
+  left:0;
+  width: 50vh;
+  height: auto;
+  
+}
+
 .profile-social-links {
   margin-top:1em;
   font-size: 5em;
@@ -404,7 +425,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   
-
   }
 a {
   text-decoration: none!important;
@@ -747,6 +767,7 @@ ul.menu-left.collapse {
   padding-top: 25vh;
   background-color: transparent;
 
+
 }
 .welcome h1 {
   font-size: 7em;
@@ -839,7 +860,16 @@ h1 {
   height: 100%; 
 }
 @media screen and (max-width: 768px) {
+  .vip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10vh;
+  width: 60vh;
   
+}
   
 }
 
