@@ -1750,7 +1750,7 @@ fieldset {
   min-width: 70px;
 }
 .timermobile #timer2 div span {
-  color: #F44336;
+  color: #999;
   display: block;
   font-size: 0.8em;
   font-weight: 400;
